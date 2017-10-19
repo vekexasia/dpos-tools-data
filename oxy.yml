@@ -66,6 +66,10 @@ pools:
     delegate: maxwell_pool
     share: 35
     website: http://oxy.maxwell.co.at
+  -
+    delegate: 5an1ty
+    share: 51
+    website: https://oxy.5an1ty.xyz/pool
 
 promotedDelegates:
   - vekexasia
