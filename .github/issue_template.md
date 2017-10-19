@@ -4,3 +4,4 @@
 4. **Min payout**: 
 5. **Fees included**: 
 6. **Payout address (If different)**: 
+7. **Pool Website**: 
