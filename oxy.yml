@@ -1,0 +1,71 @@
+loadingHTML: '<p style="text-align:center; margin-top: 10px;">Please wait...</p> <p style="text-align:center">In the meanwhile it has been speculated that voting for <strong>vekexasia</strong> reduces the time needed for the data to be ready :)</p>'
+node: "https://wallet.oxycoin.io"
+epoch: 2016-04-24_17:00:00
+numForgers: 201
+maxVotes: 51
+blockExplorer: "https://explorer.oxycoin.io"
+blockTime: 27
+addressRegex: "^([0-9]{1,21}[X|x])$"
+hasGroups: false
+pools:
+  -
+    delegate: samuel_paulsun
+    share: 15
+  -
+    delegate: arrow
+    share: 51
+  -
+    delegate: ron
+    share: 35
+  -
+    delegate: coinbar
+    share: 50
+  -
+    delegate: lovespring
+    share: 45
+  -
+    delegate: simran
+    share: 45
+  -
+    delegate: kanieloutis
+    share: 35
+  -
+    delegate: worldcoinguy
+    share: 30
+  -
+    delegate: ilovecola
+    share: 25
+  -
+    delegate: oxycoinguy
+    share: 25
+  -
+    delegate: trnpally
+    share: 25
+  -
+    delegate: proxy
+    share: 25
+  -
+    delegate: toons
+    share: 25
+  -
+    delegate: theoxypool
+    share: 25
+  -
+    delegate: clyde
+    share: 25
+  - 
+    delegate: vekexasia
+    share: 0
+  -
+    delegate: bante
+    share: 25
+  -
+    delegate: viking_pool
+    share: 35
+  -
+    delegate: maxwell_pool
+    share: 35
+    website: http://oxy.maxwell.co.at
+
+promotedDelegates:
+  - vekexasia
