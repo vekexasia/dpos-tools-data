@@ -9,6 +9,44 @@ addressRegex: "^([0-9]{1,21}[X|x])$"
 hasGroups: false
 pools:
   -
+    delegate: ampsicora
+    share: 22
+    payout:
+      min: 0.5
+      schedule: monthly
+  -
+    delegate: gregoro
+    share: 50
+    payout:
+      min: 1
+      schedule: daily
+  -
+    delegate: irina18
+    share: 40
+    payout:
+      min: 1
+      schedule: weekly
+  -
+    delegate: duttzy_23
+    share: 50
+    website: "http://oxy.duttzy23pools.xyz/"
+    payout:
+      min: 1
+      schedule: weekly
+  -
+    delegate: 5an1ty
+    share: 51
+    website: "https://oxy.5an1ty.xyz/pool"
+    payout:
+      min: 1
+      schedule: daily
+  -
+    delegate: 500bitcoins
+    share: 50
+    payout:
+      min: 1
+      schedule: daily
+  -
     delegate: samuel_paulsun
     share: 15
   -
@@ -16,7 +54,10 @@ pools:
     share: 51
   -
     delegate: ron
-    share: 35
+    share: 75
+    payout:
+      min: 0.5
+      schedule: weekly
   -
     delegate: coinbar
     share: 50
