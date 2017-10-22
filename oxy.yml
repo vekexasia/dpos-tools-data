@@ -9,6 +9,12 @@ addressRegex: "^([0-9]{1,21}[X|x])$"
 hasGroups: false
 pools:
   -
+    delegate: mars
+    share: 25
+    payout:
+      min: 1
+      schedule: daily
+  -
     delegate: ampsicora
     share: 22
     payout:
@@ -16,7 +22,7 @@ pools:
       schedule: monthly
   -
     delegate: gregoro
-    share: 50
+    share: 75
     payout:
       min: 1
       schedule: daily
