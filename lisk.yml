@@ -774,6 +774,10 @@ pools:
     share: 25
     website: https://lisk.neocities.org/pool/
   -
+    delegate: share99
+    share: 99
+    website: https://desjob.wixsite.com/share99
+  -
     delegate: popcornbag
     share: 25
   -
