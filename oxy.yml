@@ -9,6 +9,44 @@ addressRegex: "^([0-9]{1,21}[X|x])$"
 hasGroups: false
 pools:
   -
+    delegate: pnwdrew_pool
+    share: 75
+    website: https://oxy.support/forums/topic/pnwdrew_pool-proposal-by-pnwdrew/
+    payout:
+      min: 1
+      schedule: weekly
+
+  -
+    delegate: dutch_pool
+    share: 90
+    website: http://oxy.dutchpool.io
+    payout:
+      min: 1
+      schedule: weekly
+  -
+    delegate: mr_holmes_pool
+    share: 80
+    website: http://oxy.mr-holmes.online/
+    payout:
+      min: 1
+      schedule: daily
+
+  -
+    delegate: djandre
+    share: 25
+    website: http://oxypool.ovh
+    payout:
+      min: 1
+      schedule: daily
+
+  -
+    delegate: oxy_lotto
+    share: 90
+    notes: "5 winners will get 18% each. Draws will be done on youtube"
+    payout:
+      schedule: weekly
+
+  -
     delegate: mars
     share: 25
     payout:
@@ -23,6 +61,7 @@ pools:
   -
     delegate: gregoro
     share: 75
+    website: https://pool.oxycoin.gregoro.top/
     payout:
       min: 1
       schedule: daily
@@ -96,7 +135,7 @@ pools:
     share: 25
   -
     delegate: theoxypool
-    share: 25
+    share: 50
   -
     delegate: clyde
     share: 25
@@ -109,6 +148,7 @@ pools:
   -
     delegate: viking_pool
     share: 35
+    website: http://rise-boost.the-viking.online/
   -
     delegate: maxwell_pool
     share: 35

@@ -10,6 +10,11 @@ promotedDelegates:
   - rise_pool
 pools:
   -
+    delegate: boost_pool
+    share: 80
+    website: http://rise-boost.the-viking.online/
+    notes: "Boost pool uses a different progressive formula. Check website"
+  -
     delegate: mr.holmes_pool
     share: 80
     website: http://37.221.192.164/
@@ -21,7 +26,7 @@ pools:
     share: 80
   -
     delegate: seatrips
-    share: 50
+    share: 90
   -
     delegate: multiverse
     share: 80
