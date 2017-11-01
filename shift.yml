@@ -9,6 +9,12 @@ addressRegex: "^([0-9]{1,21}[S|s])$"
 hasGroups: false
 pools:
   -
+    delegate: carsonpool
+    share: 60
+    payout:
+      min: 0.1
+      schedule: weekly
+  -
     delegate: gregoro
     share: 25
     website: https://pool.shiftnrg.gregoro.top/

@@ -6,8 +6,79 @@ maxVotes: 51
 blockExplorer: "https://explorer.oxycoin.io"
 blockTime: 27
 addressRegex: "^([0-9]{1,21}[X|x])$"
-hasGroups: false
+hasGroups: true
+
+groups:
+  dutch:
+    tooltip: "Dutch Pools"
+    tag: "DTCH"
+    class: md-accent
+    members:
+      - kippers
+      - fnoufnou
+      - st3v3n
+      - dutch_pool
 pools:
+  -
+    delegate: ondin
+    share: 30
+    payout:
+      min: 0.5
+      schedule: daily
+  -
+    delegate: ilie_156
+    share: 50
+    website: http://ilie156.myoxy.pw
+    payout:
+      min: 1
+      schedule: weekly
+  -
+    delegate: kippers
+    share: 75
+    website: http://oxy.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: st3v3n
+    share: 75
+    website: http://oxy.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: fnoufnou
+    share: 75
+    website: http://oxy.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: seatrips
+    share: 25
+    website: http://oxypool.seatrips.eu
+    payout:
+      schedule: weekly
+      min: 1
+
   -
     delegate: pnwdrew_pool
     share: 75
