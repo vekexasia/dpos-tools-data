@@ -146,6 +146,13 @@ pools:
     delegate: bante
     share: 25
   -
+    delegate: mrv
+    share: 37
+    notes: "100k cap on voters' balance"
+    payout:
+      min: 1
+      schedule: weekly
+  -
     delegate: viking_pool
     share: 35
     website: http://rise-boost.the-viking.online/
