@@ -30,6 +30,16 @@ indexedRequirements:
       type: text
       value: "You also need to verify your address by sending 0.18LSK. <a href='https://liskelite.com/voter'>see here</a>"
 groups:
+  dutch:
+    tooltip: "Dutch Pools"
+    tag: "DTCH"
+    members:
+      - kippers
+      - fnoufnou
+      - thamar
+      - st3v3n
+      - dutch_pool
+
   gdt_sponsor:
     tooltip: "Sponsored GDT Members"
     tag: "GDTs"
@@ -155,6 +165,71 @@ groups:
       - robinhood
       - liskpro.com
 pools:
+  -
+    delegate: kippers
+    share: 75
+    website: http://lisk.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: fnoufnou
+    share: 75
+    website: http://lisk.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: thamar
+    share: 75
+    website: http://lisk.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: st3v3n
+    share: 75
+    website: http://lisk.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: dutch_pool
+    share: 75
+    website: http://lisk.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
   -
     delegate: sapiens.io
     share: 60
