@@ -11,13 +11,15 @@ const writeData = (baseDir: string, coin: string, key: string, content: any) => 
   fs.writeFileSync(`${baseDir}/${key}.min.js`, `__${coin}_${key}(${JSON.stringify(content)});`);
 }
 
-const ymlFiles = fs.readdirSync(__dirname)
+fs.readdirSync(__dirname)
   .filter((item) => /.yml$/.test(item))
+  .filter((item) => item !== '.travis.yml')
   .forEach((ymlFile) => {
     const content: string = fs.readFileSync(`${__dirname}/${ymlFile}`, 'utf8') as string;
     const [coin]          = ymlFile.split('.');
     const allContent      = jsYaml.load(content);
     const baseDir         = `${__dirname}/jsons/${coin}`;
+    console.log(`Generating infos for ${ymlFile} - ${coin}`);
     fs.mkdirSync(baseDir);
 
     writeData(baseDir, coin, 'indexedReqs', allContent.indexedRequirements);
