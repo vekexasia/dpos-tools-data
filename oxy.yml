@@ -143,6 +143,16 @@ indexedRequirements:
         on the oxyelite website.
 pools:
   -
+    delegate: gregorst
+    share: 20
+    payout:
+      min: 0.5
+      schedule: daily
+    website: https://pool.oxy.gregorst.org/
+  -
+    delegate: carsonpool
+    share: 75
+  -
     delegate: tembo
     share: 51
   -
@@ -842,7 +852,7 @@ pools:
 
   -
     delegate: djandre
-    share: 25
+    share: 36.6
     website: http://oxypool.ovh
     payout:
       min: 1
@@ -935,7 +945,7 @@ pools:
     share: 25
   -
     delegate: trnpally
-    share: 25
+    share: 70
   -
     delegate: proxy
     share: 25
