@@ -166,6 +166,12 @@ groups:
       - liskpro.com
 pools:
   -
+    delegate: endro
+    share: 60
+    payout:
+      min: 1
+      schedule: week
+  -
     delegate: kippers
     share: 75
     website: http://lisk.dutchpool.io
