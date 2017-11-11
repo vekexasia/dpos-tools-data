@@ -18,7 +18,7 @@ fs.readdirSync(__dirname)
     const content: string = fs.readFileSync(`${__dirname}/${ymlFile}`, 'utf8') as string;
     const [coin]          = ymlFile.split('.');
     const allContent      = jsYaml.load(content);
-    const baseDir         = `${__dirname}/jsons/${coin}`;
+    const baseDir         = `${__dirname}/artifacts/${coin}`;
     console.log(`Generating infos for ${ymlFile} - ${coin}`);
     fs.mkdirSync(baseDir);
 

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo hehe",
-    "build": "shx rm -rf jsons; mkdir jsons; ts-node buildJsons.ts"
+    "build": "shx rm -rf artifacts; mkdir artifacts; ts-node buildArtifacts.ts"
   },
   "repository": {
     "type": "git",

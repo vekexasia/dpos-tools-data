@@ -21,6 +21,14 @@ When opening an issue it will automatically prompt a body template to fill
 - If not, open a new issue (see above)
 - add a comment to the issue specifying the new reward and if you're the pool operator or not.
 
+#### I'm a developer. Can I use your data?
+
+Yes At every master commit a travis build kicks in and generates JSON and JS data from the yaml source files. 
+The artifacts are stored in the [artifacts](https://github.com/vekexasia/dpos-tools-data/tree/artifacts) branch and are accessible through `gitcdn`.
+
+For example you can get the lisk `pools.json` by using `rawgit.com` services (here)[https://cdn.rawgit.com/vekexasia/dpos-tools-data/artifacts/lisk/pools.json].
+
+
 ## Thanks
 
 Updating and maintaining dpostools is time consuming. Consider donating me some coffee. 

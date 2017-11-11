@@ -5,9 +5,9 @@ before_deploy:
   - npm run build
 deploy:
   - provider: pages
-    local_dir: jsons/
+    local_dir: artifacts/
     skip_cleanup: true
-    target_branch: jsons_builds
+    target_branch: artifacts
     github_token:
         secure: RIGrrcF3D7Fu5m3Ah2jban7Kk+kKU/43xIk6SE9sgWI6RrcWyVeot3LVZkdGKyhduCxvkF9Y3fNZ27Xpcz4olgI33uSLnnoVrn3UuFygui8ShGLXBLaKMok6bDpqjUDlraVAJbStJdSgD3vn0/SfkuUTLfHyzLX/1KD0EOuiVxKf4kVVItslDH25HnuIA5b9Ns8plHhFpzbt67wUnlfCR7p4P28o+cByIn8l56oGIeqZuqrLIU1NMCo/1rWD9NcaICdkt+JN388t0mM4OJagRkWAV3BfJ04SvRKQtPfRHOgEVlT2I6/p2P19LJxgiw9UaQvKb/2xPcKFy8ETjDXZOBG3KEheM8HfIkPtPkKwV6UQI3kINKjVXnEFKYxZj7GM17UChgHynnRD3SzNbol5vtHwsUzruq5QpYTDNxX4/r69/0FI6E0Wsr3WbrxlELNP8v8xccKkX/OL9hspIbIMzORiFt8mWkbZyGQ1NqMHla7lH3vveJbqckIeZI5NFPYUfRzZ7aScPf1HluNGarINZGMPTzEJg5v8o7OPxcNJmCqRvxiopOnSrzzqemzSHP2yOe7cY/VXrRs8rTChCfcCcjTRGuoy9qe25UuZh/1XxAxTcPuRbw/qpDqmFe3ODuRUz78o9y9ipDcVxAncCbwaotIX0pWNiQBL6bhL0x/QiUI=
     on:
