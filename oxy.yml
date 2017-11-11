@@ -149,7 +149,7 @@ pools:
     notes: "3 Winners are selected twice a week"
   -
     delegate: gregorst
-    share: 20
+    share: 35
     payout:
       min: 0.5
       schedule: daily
