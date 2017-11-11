@@ -143,6 +143,11 @@ indexedRequirements:
         on the oxyelite website.
 pools:
   -
+    delegate: the_lottery
+    share: 70
+    type: "lottery"
+    notes: "3 Winners are selected twice a week"
+  -
     delegate: gregorst
     share: 20
     payout:
