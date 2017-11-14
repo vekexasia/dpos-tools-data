@@ -146,6 +146,7 @@ groups:
       - kaystar
       - elonhan
       - catstar
+      - carbonara
   sherwood:
     tooltip: "Sherwood Member"
     tag: "SHW"
@@ -744,6 +745,13 @@ pools:
         value: elite
   -
     delegate: catstar
+    share: 25
+    requirements:
+      -
+        type: indexed
+        value: elite
+  -
+    delegate: carbonara
     share: 25
     requirements:
       -
