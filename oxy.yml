@@ -878,7 +878,8 @@ pools:
       schedule: daily
   -
     delegate: ampsicora
-    share: 22
+    share: 40
+    website: http://www.ampsicora-pools.ml
     payout:
       min: 0.5
       schedule: monthly
