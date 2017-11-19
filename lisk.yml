@@ -167,6 +167,10 @@ groups:
       - liskpro.com
 pools:
   -
+    delegate: mars
+    share: 75
+    notes: "Extra 5% community fund"
+  -
     delegate: endro
     share: 60
     payout:
@@ -226,17 +230,8 @@ pools:
             value: dutch
   -
     delegate: dutch_pool
-    share: 75
+    share: 90
     website: http://lisk.dutchpool.io
-    upgrades:
-      -
-        name: 90% Reward
-        type: new_share
-        value: 90
-        requirements:
-          -
-            type: groupvote
-            value: dutch
   -
     delegate: sapiens.io
     share: 60
