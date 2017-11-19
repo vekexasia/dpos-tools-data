@@ -143,6 +143,10 @@ indexedRequirements:
         on the oxyelite website.
 pools:
   -
+    delegate: thamar
+    share: 90
+    website: http://oxy.thamar.net
+  -
     delegate: the_lottery
     share: 70
     type: "lottery"
@@ -942,13 +946,13 @@ pools:
     share: 35
   -
     delegate: worldcoinguy
-    share: 30
+    share: 75
   -
     delegate: ilovecola
-    share: 25
+    share: 75
   -
     delegate: oxycoinguy
-    share: 25
+    share: 75
   -
     delegate: trnpally
     share: 70
