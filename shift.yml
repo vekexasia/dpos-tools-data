@@ -9,6 +9,24 @@ addressRegex: "^([0-9]{1,21}[S|s])$"
 hasGroups: false
 pools:
   -
+    delegate: pnwdrew
+    share: 80
+  -
+    delegate: shift_tools
+    share: 35
+    website: https://shift-tools.com/pool.html
+    notes: "Depending on the month, the payout is either a lottery that rewards with physical gifts, or a the entirety of the bounty."
+    payout:
+      schedule: monthly
+      min: 0.01
+
+  -
+    delegate: deadpool
+    share: 50
+    payout:
+      min: 0.01
+      schedule: monthly
+  -
     delegate: neuthor
     share: 40
     website: http://neuthor.site
@@ -21,7 +39,7 @@ pools:
   -
     delegate: gregoro
     share: 25
-    website: https://pool.shiftnrg.gregoro.top/
+    website: https://pool.shift1nrg.gregoro.top/
     payout:
       min: 0.1
       schedule: weekly
@@ -131,10 +149,10 @@ pools:
         - 1048643971821703875S
   -
     delegate: worldcoinpool
-    share: 60
+    share: 40
     website:
     payout:
-      min: 0.2
+      min: 0.1
       addresses:
         - 8642612272713533685S
   -
@@ -153,7 +171,7 @@ pools:
         - 3388036311665030157S
   -
     delegate: trnp
-    share: 60
+    share: 40
     payout:
       addresses:
         - 17544330370515019029S
