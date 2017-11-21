@@ -322,7 +322,7 @@ pools:
     share: 40
   -
     delegate: 5an1ty
-    share: 25
+    share: 20
   -
     delegate: robinhood
     share: 75
