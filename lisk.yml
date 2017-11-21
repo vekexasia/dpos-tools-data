@@ -56,6 +56,7 @@ groups:
     members:
       - 4miners.net
       - 5an1ty
+      - alepop
       - bioly
       - cc001
       - corsaro
@@ -322,6 +323,9 @@ pools:
     share: 40
   -
     delegate: 5an1ty
+    share: 25
+  -
+    delegate: alepop
     share: 25
   -
     delegate: robinhood
