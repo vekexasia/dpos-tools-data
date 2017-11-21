@@ -852,7 +852,10 @@ pools:
     share: 50
   -
     delegate: devasive
-    share: 25
+    share: 60
+    payout:
+      min: 1
+      schedule: week
   -
     delegate: slasheks
     share: 25
