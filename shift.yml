@@ -42,7 +42,7 @@ pools:
   -
     delegate: gregoro
     share: 25
-    website: https://pool.shift1nrg.gregoro.top/
+    website: https://pool.shiftnrg.gregoro.top/
     payout:
       min: 0.1
       schedule: weekly

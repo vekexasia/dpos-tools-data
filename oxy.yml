@@ -143,6 +143,13 @@ indexedRequirements:
         on the oxyelite website.
 pools:
   -
+    delegate: techguypool
+    share: 75
+  -
+    delegate: earnoxy.com
+    share: 65
+    website: https://www.earnoxy.com
+  -
     delegate: thamar
     share: 90
     website: http://oxy.thamar.net
@@ -778,7 +785,7 @@ pools:
         value: elite
   -
     delegate: ondin
-    share: 30
+    share: 25
     payout:
       min: 0.5
       schedule: daily
@@ -916,7 +923,7 @@ pools:
       schedule: daily
   -
     delegate: 500bitcoins
-    share: 50
+    share: 80
     payout:
       min: 1
       schedule: daily
