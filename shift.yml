@@ -9,6 +9,9 @@ addressRegex: "^([0-9]{1,21}[S|s])$"
 hasGroups: false
 pools:
   -
+    delegate: dotnet70
+    share: 20
+  -
     delegate: pnwdrew
     share: 80
   -
