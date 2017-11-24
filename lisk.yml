@@ -313,9 +313,6 @@ pools:
     website: http://liskpro.com
     share: 80
   -
-    delegate: alepop
-    share: 40
-  -
     delegate: atreides
     share: 40
   -
