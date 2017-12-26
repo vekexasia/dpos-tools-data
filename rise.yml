@@ -11,7 +11,7 @@ promotedDelegates:
 pools:
   -
     delegate: boost_pool
-    share: 80
+    share: 90
     website: http://rise-boost.the-viking.online/
     notes: "Boost pool uses a different progressive formula. Check website"
   -
@@ -94,3 +94,6 @@ pools:
     payout:
       min: 5
       schedule: weekly
+  -
+    delegate: risegallery
+    share: 90

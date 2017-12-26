@@ -868,7 +868,7 @@ pools:
 
   -
     delegate: djandre
-    share: 36.6
+    share: 80
     website: http://oxypool.ovh
     payout:
       min: 1
@@ -889,7 +889,7 @@ pools:
       schedule: daily
   -
     delegate: ampsicora
-    share: 40
+    share: 92
     website: http://www.ampsicora-pools.ml
     payout:
       min: 0.5
@@ -903,7 +903,7 @@ pools:
       schedule: daily
   -
     delegate: irina18
-    share: 40
+    share: 90
     payout:
       min: 1
       schedule: weekly
@@ -996,6 +996,12 @@ pools:
     delegate: maxwell_pool
     share: 35
     website: http://oxy.maxwell.co.at
+  -
+    delegate: deadpool
+    share: 91
+  -
+    delegate: bon.bini_pool
+    share: 75
 
 promotedDelegates:
   - vekexasia

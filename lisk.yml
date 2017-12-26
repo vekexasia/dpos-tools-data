@@ -380,7 +380,7 @@ pools:
     website: http://liskpool.com/
   -
     delegate: shinekami
-    share: 80
+    share: 85
     website: https://lskpool.lisk-ua.net/
   -
     delegate: communitypool
@@ -904,3 +904,7 @@ pools:
     delegate: mrv
     share: 5
     website: https://lisktools.io/profitShares.php
+  -
+    delegate: liskpoland.pl
+    share: 80
+    website: http://liskpoland.pl
