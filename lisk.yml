@@ -1,7 +1,6 @@
 ---
 loadingHTML: '<p style="text-align:center; margin-top: 10px;">Please wait...</p> <p style="text-align:center">In the meanwhile it has been speculated that voting for <strong>vekexasia</strong> reduces the time needed for the data to be ready :)</p>'
 node:
-  - https://login.lisk.io
   - https://node08.lisk.io
   - https://node07.lisk.io
   - https://node06.lisk.io
