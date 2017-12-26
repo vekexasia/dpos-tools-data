@@ -4,11 +4,10 @@ node:
   - http://212.24.101.114:4001
 epoch: 2017-03-21_13:00:00
 numForgers: 51
-maxVotes: 101
+maxVotes: 1
 blockExplorer: "https://explorer.ark.io"
-blockTime: 10
+blockTime: 8
 addressRegex: "^A[0-9A-Za-z]{1,21}$"
-hasGroups: true
 promotedDelegates:
   - anamix
 pools:
