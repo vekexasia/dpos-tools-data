@@ -3,7 +3,7 @@ loadingHTML: '<p style="text-align:center; margin-top: 10px;">Please wait...</p>
 node:
   - http://212.24.101.114:4001
 epoch: 2017-03-21_13:00:00
-numForgers: 101
+numForgers: 51
 maxVotes: 101
 blockExplorer: "https://explorer.ark.io"
 blockTime: 10
