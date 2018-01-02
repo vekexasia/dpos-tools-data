@@ -144,7 +144,7 @@ indexedRequirements:
 pools:
   -
     delegate: techguypool
-    share: 75
+    share: 92
   -
     delegate: earnoxy.com
     share: 65
@@ -167,7 +167,7 @@ pools:
     website: https://pool.oxy.gregorst.org/
   -
     delegate: carsonpool
-    share: 75
+    share: 90
   -
     delegate: tembo
     share: 51
@@ -953,16 +953,16 @@ pools:
     share: 35
   -
     delegate: worldcoinguy
-    share: 75
+    share: 92
   -
     delegate: ilovecola
-    share: 75
+    share: 91
   -
     delegate: oxycoinguy
-    share: 75
+    share: 91
   -
     delegate: trnpally
-    share: 70
+    share: 92
   -
     delegate: proxy
     share: 25
@@ -994,7 +994,7 @@ pools:
     website: http://rise-boost.the-viking.online/
   -
     delegate: maxwell_pool
-    share: 35
+    share: 80
     website: http://oxy.maxwell.co.at
   -
     delegate: deadpool

@@ -12,6 +12,9 @@ pools:
     delegate: dotnet70
     share: 20
   -
+    delegate: jamiec79
+    share: 40
+  -
     delegate: pnwdrew
     share: 80
   -
@@ -25,10 +28,12 @@ pools:
 
   -
     delegate: deadpool
-    share: 50
+    share: 80
+    website: https://public.tableau.com/views/ShiftPoolAnalysis/Analysis
     payout:
       min: 0.01
-      schedule: monthly
+      schedule: daily
+
   -
     delegate: neuthor
     share: 40

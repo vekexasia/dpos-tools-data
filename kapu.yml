@@ -12,6 +12,10 @@ promotedDelegates:
   - vekexasia
 pools:
   -
+    delegate: djandre
+    share: 90
+    website: http://kapool.ovh
+  -
     delegate: viking_pool
     share: 80
   -

@@ -280,7 +280,7 @@ pools:
     notes: "vekexasia is the developer of this website!"
   -
     delegate: phoenix1969
-    share: 25
+    share: 45
     website: http://vote.phoenix1969.win/
     requirements:
       -
