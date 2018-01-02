@@ -7,7 +7,7 @@ numForgers: 51
 maxVotes: 1
 blockExplorer: "https://explorer.ark.io"
 blockTime: 8
-addressRegex: "^A[0-9A-Za-z]{1,21}$"
+addressRegex: "^A[0-9A-Za-z]{1,36}$"
 promotedDelegates:
   - anamix
 pools:

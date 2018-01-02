@@ -7,7 +7,7 @@ numForgers: 51
 maxVotes: 1
 blockExplorer: "https://explorer.kapu.one/"
 blockTime: 8
-addressRegex: "^K[0-9A-Za-z]{1,21}$"
+addressRegex: "^K[0-9A-Za-z]{1,36}$"
 promotedDelegates:
   - vekexasia
 pools:
