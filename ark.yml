@@ -1,7 +1,7 @@
 ---
 loadingHTML: '<p style="text-align:center; margin-top: 10px;">Please wait...</p> <p style="text-align:center">In the meanwhile it has been speculated that voting for <strong>anamix</strong> reduces the time needed for the data to be ready :)</p>'
 node:
-  - http://212.24.101.114:4001
+  - https://ark.anamix.top
 epoch: 2017-03-21_13:00:00
 numForgers: 51
 maxVotes: 1
