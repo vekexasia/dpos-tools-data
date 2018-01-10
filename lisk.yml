@@ -907,3 +907,6 @@ pools:
     delegate: liskpoland.pl
     share: 80
     website: http://liskpoland.pl
+  -
+    delegate: elevate
+    share: 50
