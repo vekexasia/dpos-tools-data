@@ -907,3 +907,10 @@ pools:
     delegate: liskpoland.pl
     share: 80
     website: http://liskpoland.pl
+  -
+    delegate: 4fryn
+    share: 75
+    website: https://4fry.net
+    payout:
+      min: 1
+      schedule: week
