@@ -295,7 +295,7 @@ pools:
         value: elite
   -
     delegate: stellardynamic
-    share: 25
+    share: 40
     requirements:
       -
         type: indexed
