@@ -581,10 +581,6 @@ pools:
   -
     delegate: luukas
     share: 25
-    requirements:
-      -
-        type: indexed
-        value: elite
   -
     delegate: crodam
     share: 25

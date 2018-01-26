@@ -10,6 +10,10 @@ promotedDelegates:
   - rise_pool
 pools:
   -
+    delegate: sio34
+    share: 90
+    website: "https://risepool.sio34.org/"
+  -
     delegate: boost_pool
     share: 90
     website: http://rise-boost.the-viking.online/
