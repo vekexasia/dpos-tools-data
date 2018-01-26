@@ -119,7 +119,6 @@ groups:
       - xujian
       - eastwind_ja
       - mrgr
-      - luukas
       - crodam
       - hua
       - honeybee
@@ -581,10 +580,7 @@ pools:
   -
     delegate: luukas
     share: 25
-    requirements:
-      -
-        type: indexed
-        value: elite
+
   -
     delegate: crodam
     share: 25
