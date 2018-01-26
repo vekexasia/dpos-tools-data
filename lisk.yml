@@ -309,7 +309,7 @@ pools:
   -
     delegate: liskpro.com
     website: http://liskpro.com
-    share: 80
+    share: 50
   -
     delegate: atreides
     share: 40
