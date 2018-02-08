@@ -147,9 +147,6 @@ pools:
     share: 91
     website: "http://data.openbitlab.com/openbitlaboxy/"
   -
-    delegate: saintvirus
-    share: 90
-  -
     delegate: techguypool
     share: 92
   -
