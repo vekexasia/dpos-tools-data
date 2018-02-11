@@ -119,9 +119,3 @@ pools:
     payout:
       min: 0.1
       schedule: daily
-  -
-    delegate: cct_risearmyxxx
-    share: 95
-    payout:
-      min: 0.1
-      schedule: daily
