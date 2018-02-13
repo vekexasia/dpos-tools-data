@@ -12,6 +12,9 @@ promotedDelegates:
   - anamix
 pools:
   -
+    delegate: goose
+    share: 92
+  -
     delegate: anamix
     share: 80
   -

@@ -12,6 +12,9 @@ promotedDelegates:
   - vekexasia
 pools:
   -
+    delegate: goose
+    share: 80
+  -
     delegate: djandre
     share: 90
     website: http://kapool.ovh

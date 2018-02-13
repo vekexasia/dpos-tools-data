@@ -9,6 +9,19 @@ addressRegex: "^([0-9]{1,21}[S|s])$"
 hasGroups: false
 pools:
   -
+    delegate: get_shifty
+    share: 75
+    notes: "an extra 10% is given to devs"
+  -
+    delegate: lmj0290
+    share: 50
+    payout:
+      schedule: monthly
+      min: 0.1
+  -
+    delegate: felix_delegate
+    share: 50
+  -
     delegate: dotnet70
     share: 20
   -
@@ -330,6 +343,12 @@ pools:
       min: 0.1
       addresses:
         - 12573285556006580003S
+  -
+    delegate: simran_pool
+    share: 90
+    payout:
+      schedule: weekly
+      min: 0.1
 
 promotedDelegates:
   - vekexasia
