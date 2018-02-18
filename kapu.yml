@@ -12,6 +12,9 @@ promotedDelegates:
   - vekexasia
 pools:
   -
+    delegate: dotnet70
+    share: 65
+  -
     delegate: goose
     share: 80
   -
