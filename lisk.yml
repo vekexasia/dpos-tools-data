@@ -100,7 +100,6 @@ groups:
     tag: "ELT"
     class:
     members:
-
       - luiz
       - liskjp
       - iii.element.iii
@@ -119,7 +118,6 @@ groups:
       - xujian
       - eastwind_ja
       - mrgr
-      - luukas
       - crodam
       - hua
       - honeybee
@@ -152,7 +150,6 @@ groups:
       - threelittlepig
       - menfei
       - china
-#          - eely_delving
       - kaystar
       - elonhan
       - catstar
