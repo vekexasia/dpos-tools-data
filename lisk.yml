@@ -256,7 +256,7 @@ groups:
         - 17208736554155208523L
   -
     delegate: anamix
-    share: 60
+    share: 10
   -
     delegate: vi1son
     share: 40
