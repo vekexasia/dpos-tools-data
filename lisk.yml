@@ -778,6 +778,7 @@ pools:
       -
         type: indexed
         value: elite
+  -
     delegate: elonhan
     share: 25
     requirements:
