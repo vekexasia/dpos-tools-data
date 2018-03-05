@@ -92,7 +92,6 @@ groups:
     class: md-warn
     members:
       - phoenix1969
-      - bitbanksy
       - stellardynamic
       - nerigal
   elite:
@@ -288,7 +287,7 @@ groups:
         value: elite
   -
     delegate: bitbanksy
-    share: 25
+    share: 60
     requirements:
       -
         type: indexed
@@ -429,7 +428,6 @@ groups:
   -
     delegate: kushed.delegate
     share: 40
-
   -
     delegate: hagie
     share: 40
@@ -439,12 +437,10 @@ groups:
   -
     delegate: ondin
     share: 25
-
   -
     delegate: sgdias
     share: 30
     website: http://lisk.com.ar
-
   -
     delegate: luiz
     share: 25
@@ -573,13 +569,6 @@ groups:
         value: elite
   -
     delegate: hua
-    share: 25
-    requirements:
-      -
-        type: indexed
-        value: elite
-  -
-    delegate: luukas
     share: 25
     requirements:
       -
@@ -798,14 +787,6 @@ groups:
       -
         type: indexed
         value: elite
-#  -
-#    delegate: eely_delving
-#    share: 25
-#        requirements:
-#          -
-#            type: indexed
-#            value: elite
-  -
     delegate: elonhan
     share: 25
     requirements:
@@ -837,12 +818,10 @@ groups:
     delegate: bioly
     share: 25
     website: http://pool.mylisk.com
-    
   -
     delegate: forrest
     share: 25
     website: http://lisk.forrestpool.win/
-    
   -
     delegate: samuray
     share: 50
@@ -855,7 +834,6 @@ groups:
   -
     delegate: slasheks
     share: 25
-    
   -
     delegate: index
     share: 25
@@ -874,28 +852,23 @@ groups:
     delegate: liskit
     share: 20
     website: http://liskit.me/
-    
   -
     delegate: fulig
     share: 20
   -
     delegate: joel
     share: 25
-    
   -
     delegate: dakk
     share: 15
     website: https://dakk.github.io/lisk-pool
-    
   -
     delegate: corsaro
     share: 10
     website: http://pool.liskworld.info/
-    
   -
     delegate: redsn0w
     share: 10
-    
   -
     delegate: splatters
     share: 10
