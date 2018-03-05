@@ -281,10 +281,9 @@ groups:
   -
     delegate: bitbanksy
     share: 60
-    requirements:
-      -
-        type: indexed
-        value: elite
+  -
+    delegate: bloqspace.io
+    share: 60
   -
     delegate: stellardynamic
     share: 40
