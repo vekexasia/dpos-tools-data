@@ -160,7 +160,7 @@ groups:
       - bitbanksy
       - 4fryn
       - bloqspace.io
-    pools:
+pools:
   -
     delegate: mars
     share: 75
@@ -873,7 +873,7 @@ groups:
     website: http://liskpoland.pl
   -
     delegate: 4fryn
-    share: 75
+    share: 60
     website: https://4fry.net
     payout:
       min: 1
