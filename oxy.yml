@@ -143,6 +143,10 @@ indexedRequirements:
         on the oxyelite website.
 pools:
   -
+    delegate: openbitlab
+    share: 91
+    website: "http://data.openbitlab.com/openbitlaboxy/"
+  -
     delegate: techguypool
     share: 92
   -

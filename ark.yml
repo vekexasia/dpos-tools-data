@@ -12,6 +12,13 @@ promotedDelegates:
   - anamix
 pools:
   -
+    delegate: arkland
+    share: 93
+    website: https://ark.land/
+  -
+    delegate: goose
+    share: 92
+  -
     delegate: anamix
     share: 80
   -

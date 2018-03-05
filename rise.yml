@@ -10,6 +10,10 @@ promotedDelegates:
   - rise_pool
 pools:
   -
+    delegate: sio34
+    share: 90
+    website: "https://risepool.sio34.org/"
+  -
     delegate: boost_pool
     share: 90
     website: http://rise-boost.the-viking.online/
@@ -42,9 +46,9 @@ pools:
     delegate: ondin
     share: 80
     website: https://pool.ondin.tech/
-  -
-    delegate: corsaro
-    share: 100
+#  -
+#    delegate: corsaro
+#    share: 100
   -
     delegate: maxwell_pool
     share: 80
@@ -97,3 +101,21 @@ pools:
   -
     delegate: risegallery
     share: 90
+  -
+    delegate: cct_risearmy
+    share: 95
+    payout:
+      min: 0.1
+      schedule: daily
+  -
+    delegate: cct_risearmyx
+    share: 95
+    payout:
+      min: 0.1
+      schedule: daily
+  -
+    delegate: risearmyxx
+    share: 95
+    payout:
+      min: 0.1
+      schedule: daily
