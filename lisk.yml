@@ -162,7 +162,10 @@ groups:
       - liberspirita
       - robinhood
       - liskpro.com
-pools:
+      - bitbanksy
+      - 4fryn
+      - bloqspace.io
+    pools:
   -
     delegate: mars
     share: 75
