@@ -482,7 +482,7 @@ pools:
             value: gdt
   -
     delegate: vi1son
-    share: 46.26
+    share: 46.25
     requirements:
       -
         type: indexed
