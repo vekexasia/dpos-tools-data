@@ -217,7 +217,7 @@ pools:
     requirements:
       -
         type: indexed
-        value: elite
+        value: gdt
   -
     delegate: dakk
     share: 15
