@@ -204,7 +204,7 @@ pools:
             type: groupvote
             value: gdt
   -
-   delegate: cc001
+    delegate: cc001
     share: 6.25
     requirements:
       -
