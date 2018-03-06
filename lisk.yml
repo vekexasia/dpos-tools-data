@@ -25,9 +25,6 @@ indexedRequirements:
     -
       type: groupvote
       value: elite
-#    -
-#      type: text
-#      value: "You also need to verify your address by sending 0.18LSK. <a href='https://liskelite.com/voter'>see here</a>"
 groups:
   dutch:
     tooltip: "Dutch Pools"
@@ -38,7 +35,6 @@ groups:
       - thamar
       - st3v3n
       - dutch_pool
-
   gdt_sponsor:
     tooltip: "Sponsored GDT Members"
     tag: "GDTs"
@@ -92,7 +88,6 @@ groups:
     class: md-warn
     members:
       - phoenix1969
-      - bitbanksy
       - stellardynamic
       - nerigal
   elite:
@@ -100,7 +95,6 @@ groups:
     tag: "ELT"
     class:
     members:
-
       - luiz
       - liskjp
       - iii.element.iii
@@ -151,7 +145,6 @@ groups:
       - threelittlepig
       - menfei
       - china
-#          - eely_delving
       - kaystar
       - elonhan
       - catstar
@@ -164,6 +157,9 @@ groups:
       - liberspirita
       - robinhood
       - liskpro.com
+      - bitbanksy
+      - 4fryn
+      - bloqspace.io
 pools:
   -
     delegate: mars
@@ -243,7 +239,6 @@ pools:
   -
     delegate: joo5ty
     share: 25
-
   -
     delegate: ntelo
     share: 20
@@ -259,10 +254,9 @@ pools:
     payout:
       addresses:
         - 17208736554155208523L
-
   -
     delegate: anamix
-    share: 60
+    share: 10
   -
     delegate: vi1son
     share: 40
@@ -272,7 +266,6 @@ pools:
   -
     delegate: tembo
     share: 15
-
   -
     delegate: vekexasia
     share: 25
@@ -287,11 +280,10 @@ pools:
         value: elite
   -
     delegate: bitbanksy
-    share: 25
-    requirements:
-      -
-        type: indexed
-        value: elite
+    share: 60
+  -
+    delegate: bloqspace.io
+    share: 60
   -
     delegate: stellardynamic
     share: 40
@@ -364,7 +356,6 @@ pools:
         name: Gold Reward
         type: cut_of_fixed_bonus
         value: 400
-#            extra_desc_html: 'GDT Members donate a fixed amount of LISK to the pool as a bonus for Gold voters. More at <a href="https://pool.liskgdt.net/">gdtpool website</a>'
         requirements:
           -
             type: groupvote
@@ -428,7 +419,6 @@ pools:
   -
     delegate: kushed.delegate
     share: 40
-
   -
     delegate: hagie
     share: 40
@@ -438,12 +428,10 @@ pools:
   -
     delegate: ondin
     share: 25
-
   -
     delegate: sgdias
     share: 30
     website: http://lisk.com.ar
-
   -
     delegate: luiz
     share: 25
@@ -577,9 +565,6 @@ pools:
       -
         type: indexed
         value: elite
-  -
-    delegate: luukas
-    share: 25
   -
     delegate: crodam
     share: 25
@@ -793,13 +778,6 @@ pools:
       -
         type: indexed
         value: elite
-#  -
-#    delegate: eely_delving
-#    share: 25
-#        requirements:
-#          -
-#            type: indexed
-#            value: elite
   -
     delegate: elonhan
     share: 25
@@ -832,12 +810,10 @@ pools:
     delegate: bioly
     share: 25
     website: http://pool.mylisk.com
-    
   -
     delegate: forrest
     share: 25
     website: http://lisk.forrestpool.win/
-    
   -
     delegate: samuray
     share: 50
@@ -850,7 +826,6 @@ pools:
   -
     delegate: slasheks
     share: 25
-    
   -
     delegate: index
     share: 25
@@ -869,28 +844,23 @@ pools:
     delegate: liskit
     share: 20
     website: http://liskit.me/
-    
   -
     delegate: fulig
     share: 20
   -
     delegate: joel
     share: 25
-    
   -
     delegate: dakk
     share: 15
     website: https://dakk.github.io/lisk-pool
-    
   -
     delegate: corsaro
     share: 10
     website: http://pool.liskworld.info/
-    
   -
     delegate: redsn0w
     share: 10
-    
   -
     delegate: splatters
     share: 10
@@ -904,7 +874,7 @@ pools:
     website: http://liskpoland.pl
   -
     delegate: 4fryn
-    share: 75
+    share: 60
     website: https://4fry.net
     payout:
       min: 1
