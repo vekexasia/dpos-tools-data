@@ -300,7 +300,8 @@ pools:
         value: gdt
   -
     delegate: joo5ty
-    share: 25
+    share: 16.25
+    notes: "Shares Extra 15% on promotions and lisk.support"
     requirements:
       -
         type: indexed
@@ -339,17 +340,12 @@ pools:
             value: gdt
   -
     delegate: mrv
-    share: 5
+    share: 11.25
     website: https://lisktools.io/profitShares.php
-    upgrades:
+    requirements:
       -
-        name: GDT Full Share
-        type: new_share
-        value: 11.25
-        requirements:
-          -
-            type: groupvote
-            value: gdt
+        type: indexed
+        value: gdt
   -
     delegate: nerigal
     share: 25
@@ -486,16 +482,12 @@ pools:
             value: gdt
   -
     delegate: vi1son
-    share: 40
-    upgrades:
+    share: 46.26
+    requirements:
       -
-        name: GDT Full Share
-        type: new_share
-        value: 46.25
-        requirements:
-          -
-            type: groupvote
-            value: gdt
+        type: indexed
+        value: gdt
+
   # ELITE
   -
     delegate: luiz
