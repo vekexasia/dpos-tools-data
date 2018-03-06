@@ -53,7 +53,7 @@ pools:
     website: http://neuthor.site
   -
     delegate: carsonpool
-    share: 60
+    share: 50
     payout:
       min: 0.1
       schedule: weekly
