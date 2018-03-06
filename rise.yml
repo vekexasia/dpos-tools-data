@@ -114,6 +114,9 @@ pools:
       min: 0.1
       schedule: daily
   -
+    delegate: arrow
+    share: 91
+  -
     delegate: risearmyxx
     share: 95
     payout:
