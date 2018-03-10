@@ -921,14 +921,15 @@ pools:
   -
     delegate: anamix
     share: 10
-    -
-      name: Ascend Share
-      type: new_share
-      value: 60
-      requirements:
-        -
-          type: groupvote
-          value: ascend
+    upgrades:
+      -
+        name: Ascend Share
+        type: new_share
+        value: 60
+        requirements:
+          -
+            type: groupvote
+            value: ascend
   -
     delegate: gregorst
     share: 50
@@ -953,14 +954,15 @@ pools:
   -
     delegate: lisktrust
     share: 40
-    -
-      name: Ascend Share
-      type: new_share
-      value: 90
-      requirements:
-        -
-          type: groupvote
-          value: ascend
+    upgrades:
+      -
+        name: Ascend Share
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: ascend
   -
     delegate: slamper
     share: 50
