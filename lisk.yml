@@ -20,6 +20,10 @@ hasGroups: true
 promotedDelegates:
   - vekexasia
 indexedRequirements:
+  ascend:
+    -
+      type: groupvote
+      value: ascend
   elite:
     -
       type: groupvote
@@ -29,6 +33,23 @@ indexedRequirements:
       type: groupvote
       value: gdt
 groups:
+  ascend:
+    tooltip: "Lisk Ascend Team"
+    tag: "ASC"
+    members:
+      - hirish
+      - moosty
+      - nimbus
+      - kylefromohio
+      - goforlisk
+      - anamix
+      - gregorst
+      - sdrpa
+      - roblad
+      - lisktrust
+      - slamper
+      - puredelta
+      - diamse
   dutch:
     tooltip: "Dutch Pools"
     tag: "DTCH"
@@ -861,6 +882,100 @@ pools:
         type: indexed
         value: elite
 
+  # ASCEND
+  -
+    delegate: hirish
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: moosty
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: nimbus
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: kylefromohio
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: goforlisk
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: anamix
+    share: 10
+    -
+      name: Ascend Share
+      type: new_share
+      value: 60
+      requirements:
+        -
+          type: groupvote
+          value: ascend
+  -
+    delegate: gregorst
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: sdrpa
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: roblad
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: lisktrust
+    share: 40
+    -
+      name: Ascend Share
+      type: new_share
+      value: 90
+      requirements:
+        -
+          type: groupvote
+          value: ascend
+  -
+    delegate: slamper
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: diamse
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+
   # OTHERS
   -
     delegate: mars
@@ -934,23 +1049,12 @@ pools:
     website: http://sapiensproject.io
     notes: extra 10% shared to dev projects
   -
-    delegate: hirish
-    share: 70
-    notes: extra 10% shared to dev projects
-  -
-    delegate: gregorst
-    share: 50
-    website: https://pool.lisk.gregorst.org/
-  -
     delegate: vrlc92
     share: 50
     website: http://vliskpool.com/
     payout:
       addresses:
         - 17208736554155208523L
-  -
-    delegate: anamix
-    share: 10
   -
     delegate: stoner19
     share: 40
