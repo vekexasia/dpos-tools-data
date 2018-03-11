@@ -4,7 +4,8 @@ node_js:
 before_deploy:
   - npm run build
 deploy:
-  - provider: pages
+  edge:
+    provider: pages
     local_dir: artifacts/
     skip_cleanup: true
     target_branch: artifacts
