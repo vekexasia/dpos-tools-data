@@ -189,10 +189,10 @@ pools:
     delegate: samaritan
     share: 80
     website: http://lisk.ovh
--
-delegate: ren.dao
-share: 80
-website: http://lisk.ovh
+  -
+    delegate: ren.dao
+    share: 70
+    website: https://rencoin.io/lisk-delegate
   # GDT
   - delegate: 4miners.net
     share: 6.25
