@@ -185,7 +185,7 @@ groups:
       - 4fryn
       - bloqspace.io
 pools:
- -
+  -
     delegate: samaritan
     share: 80
     website: http://lisk.ovh
