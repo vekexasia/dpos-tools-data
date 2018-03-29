@@ -189,6 +189,7 @@ pools:
     delegate: samaritan
     share: 80
     website: http://lisk.ovh
+
   -
     delegate: ren.dao
     share: 70
