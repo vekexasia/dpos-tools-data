@@ -209,6 +209,16 @@ __lisk_allInfos({
   },
   "pools": [
     {
+      "delegate": "samaritan",
+      "share": 80,
+      "website": "http://lisk.ovh"
+    },
+    {
+      "delegate": "ren.dao",
+      "share": 70,
+      "website": "https://rencoin.io/lisk-delegate"
+    },
+    {
       "delegate": "4miners.net",
       "share": 6.25,
       "requirements": [
@@ -507,7 +517,12 @@ __lisk_allInfos({
     },
     {
       "delegate": "ondin",
-      "share": 25,
+      "share": 25
+    },
+    {
+      "delegate": "robinhood",
+      "share": 75,
+      "website": "http://robinhood.liberspirita.net/",
       "upgrades": [
         {
           "name": "GDT Full Share",
@@ -854,6 +869,10 @@ __lisk_allInfos({
       ]
     },
     {
+      "delegate": "luukas",
+      "share": 25
+    },
+    {
       "delegate": "crodam",
       "share": 25,
       "requirements": [
@@ -1132,6 +1151,10 @@ __lisk_allInfos({
           "value": "elite"
         }
       ]
+    },
+    {
+      "delegate": "loveforever",
+      "share": 25
     },
     {
       "delegate": "kc",
