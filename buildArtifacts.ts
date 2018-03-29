@@ -26,5 +26,14 @@ fs.readdirSync(__dirname)
     writeData(baseDir, coin, 'groups', allContent.groups);
     writeData(baseDir, coin, 'pools', allContent.pools);
     writeData(baseDir, coin, 'allInfos', allContent);
+    writeData(baseDir, coin, 'coinData', {
+      node: allContent.node,
+      epoch: allContent.epoch,
+      numForgers: allContent.numForgers,
+      maxVotes: allContent.maxVotes,
+      blockExplorer: allContent.blockExplorer,
+      blockTime: allContent.blockTime,
+      addressRegex: allContent.addressRegex,
+    });
   });
 

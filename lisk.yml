@@ -166,6 +166,14 @@ groups:
       - liskpro.com
 pools:
   -
+    delegate: samaritan
+    share: 80
+    website: http://lisk.ovh
+  -
+    delegate: ren.dao
+    share: 80
+    website: http://lisk.ovh
+  -
     delegate: mars
     share: 75
     notes: "Extra 5% community fund"
