@@ -17,7 +17,7 @@ fs.readdirSync(__dirname)
   .forEach((ymlFile) => {
     const content: string = fs.readFileSync(`${__dirname}/${ymlFile}`, 'utf8') as string;
     const [coin]          = ymlFile.split('.');
-    const allContent      = jsYaml.load(content);
+    const allContent:any  = jsYaml.load(content);
     const baseDir         = `${__dirname}/artifacts/${coin}`;
     console.log(`Generating infos for ${ymlFile} - ${coin}`);
     fs.mkdirSync(baseDir);
