@@ -9,7 +9,6 @@ node:
   - https://node03.lisk.io
   - https://node02.lisk.io
   - https://node01.lisk.io
-  - https://node01.lisk.io
 
 epoch: 2016-04-24_17:00:00
 numForgers: 101
@@ -21,14 +20,36 @@ hasGroups: true
 promotedDelegates:
   - vekexasia
 indexedRequirements:
+  ascend:
+    -
+      type: groupvote
+      value: ascend
   elite:
     -
       type: groupvote
       value: elite
-#    -
-#      type: text
-#      value: "You also need to verify your address by sending 0.18LSK. <a href='https://liskelite.com/voter'>see here</a>"
+  gdt:
+    -
+      type: groupvote
+      value: gdt
 groups:
+  ascend:
+    tooltip: "Lisk Ascend Team"
+    tag: "ASC"
+    members:
+      - hirish
+      - moosty
+      - nimbus
+      - kylefromohio
+      - goforlisk
+      - anamix
+      - gregorst
+      - sdrpa
+      - roblad
+      - lisktrust
+      - slamper
+      - puredelta
+      - diamse
   dutch:
     tooltip: "Dutch Pools"
     tag: "DTCH"
@@ -38,7 +59,6 @@ groups:
       - thamar
       - st3v3n
       - dutch_pool
-
   gdt_sponsor:
     tooltip: "Sponsored GDT Members"
     tag: "GDTs"
@@ -92,7 +112,6 @@ groups:
     class: md-warn
     members:
       - phoenix1969
-      - bitbanksy
       - stellardynamic
       - nerigal
   elite:
@@ -100,7 +119,6 @@ groups:
     tag: "ELT"
     class:
     members:
-
       - luiz
       - liskjp
       - iii.element.iii
@@ -151,7 +169,6 @@ groups:
       - threelittlepig
       - menfei
       - china
-#          - eely_delving
       - kaystar
       - elonhan
       - catstar
@@ -164,149 +181,200 @@ groups:
       - liberspirita
       - robinhood
       - liskpro.com
+      - bitbanksy
+      - 4fryn
+      - bloqspace.io
 pools:
-  -
+ -
     delegate: samaritan
     share: 80
     website: http://lisk.ovh
+-
+delegate: ren.dao
+share: 80
+website: http://lisk.ovh
+  # GDT
+  - delegate: 4miners.net
+    share: 6.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
   -
-    delegate: ren.dao
-    share: 80
-    website: http://lisk.ovh
+    delegate: 5an1ty
+    share: 25
+    requirements:
+      -
+        type: indexed
+        value: gdt
   -
-    delegate: mars
-    share: 75
-    notes: "Extra 5% community fund"
-  -
-    delegate: endro
-    share: 60
-    payout:
-      min: 1
-      schedule: week
-  -
-    delegate: kippers
-    share: 75
-    website: http://lisk.dutchpool.io
+    delegate: alepop
+    share: 25
     upgrades:
       -
-        name: 90% Reward
+        name: GDT Full Share
         type: new_share
-        value: 90
+        value: 31.25
         requirements:
           -
             type: groupvote
-            value: dutch
+            value: gdt
   -
-    delegate: fnoufnou
-    share: 75
-    website: http://lisk.dutchpool.io
+    delegate: bioly
+    share: 25
+    website: http://pool.mylisk.com
     upgrades:
       -
-        name: 90% Reward
+        name: GDT Full Share
         type: new_share
-        value: 90
+        value: 31.25
         requirements:
           -
             type: groupvote
-            value: dutch
+            value: gdt
   -
-    delegate: thamar
-    share: 75
-    website: http://lisk.dutchpool.io
+    delegate: cc001
+    share: 6.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
+  -
+    delegate: corsaro
+    share: 20
+    website: http://pool.liskworld.info/
+    requirements:
+      -
+        type: indexed
+        value: gdt
+  -
+    delegate: dakk
+    share: 15
+    website: https://dakk.github.io/lisk-pool
     upgrades:
       -
-        name: 90% Reward
+        name: GDT Full Share
         type: new_share
-        value: 90
+        value: 21.25
         requirements:
           -
             type: groupvote
-            value: dutch
+            value: gdt
   -
-    delegate: st3v3n
-    share: 75
-    website: http://lisk.dutchpool.io
+    delegate: eclipsun
+    share: 6.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
+  -
+    delegate: forrest
+    share: 25
+    website: http://lisk.forrestpool.win/
     upgrades:
       -
-        name: 90% Reward
+        name: GDT Full Share
         type: new_share
-        value: 90
+        value: 31.25
         requirements:
           -
             type: groupvote
-            value: dutch
+            value: gdt
   -
-    delegate: dutch_pool
-    share: 90
-    website: http://lisk.dutchpool.io
+    delegate: goldeneye
+    share: 6.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
   -
-    delegate: sapiens.io
-    share: 60
-    website: http://sapiensproject.io
-    notes: extra 10% shared to dev projects
+    delegate: gr33ndrag0n
+    share: 6.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
   -
-    delegate: hirish
-    share: 70
-    notes: extra 10% shared to dev projects
+    delegate: grumlin
+    share: 6.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
+  -
+    delegate: hagie
+    share: 40
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 46.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
+  -
+    delegate: hmachado
+    share: 6.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
+  -
+    delegate: joel
+    share: 25
+    requirements:
+      -
+        type: indexed
+        value: gdt
   -
     delegate: joo5ty
-    share: 25
-
+    share: 16.25
+    notes: "Shares Extra 15% on promotions and lisk.support"
+    requirements:
+      -
+        type: indexed
+        value: gdt
   -
-    delegate: ntelo
+    delegate: kushed.delegate
+    share: 40
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 46.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
+  -
+    delegate: liskgate
+    share: 6.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
+  -
+    delegate: liskit
     share: 20
-    website: http://ntelodelegate.com/pages/home
+    website: http://liskit.me/
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 26.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
   -
-    delegate: gregorst
-    share: 50
-    website: https://pool.lisk.gregorst.org/
-  -
-    delegate: vrlc92
-    share: 50
-    website: http://vliskpool.com/
-    payout:
-      addresses:
-        - 17208736554155208523L
-
-  -
-    delegate: anamix
-    share: 60
-  -
-    delegate: vi1son
-    share: 40
-  -
-    delegate: stoner19
-    share: 40
-  -
-    delegate: tembo
-    share: 15
-
-  -
-    delegate: vekexasia
-    share: 25
-    notes: "vekexasia is the developer of this website!"
-  -
-    delegate: phoenix1969
-    share: 45
-    website: http://vote.phoenix1969.win/
+    delegate: mrv
+    share: 11.25
+    website: https://lisktools.io/profitShares.php
     requirements:
       -
         type: indexed
-        value: elite
-  -
-    delegate: bitbanksy
-    share: 25
-    requirements:
-      -
-        type: indexed
-        value: elite
-  -
-    delegate: stellardynamic
-    share: 40
-    requirements:
-      -
-        type: indexed
-        value: elite
+        value: gdt
   -
     delegate: nerigal
     share: 25
@@ -314,21 +382,30 @@ pools:
       -
         type: indexed
         value: elite
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 31.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
   -
-    delegate: liskpro.com
-    website: http://liskpro.com
-    share: 80
-  -
-    delegate: atreides
-    share: 40
-  -
-    delegate: wannabe_rotebaron
-    share: 40
-  -
-    delegate: 5an1ty
+    delegate: ntelo
     share: 20
+    website: http://ntelodelegate.com/pages/home
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 26.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
   -
-    delegate: alepop
+    delegate: ondin
     share: 25
   -
     delegate: robinhood
@@ -336,122 +413,115 @@ pools:
     website: http://robinhood.liberspirita.net/
     upgrades:
       -
-        name: 100% Reward
+        name: GDT Full Share
         type: new_share
-        value: 100
-        requirements:
-          -
-            type: vote
-            value: liberspirita
-      -
-        name: 120% Reward
-        type: new_share
-        value: 120
-        requirements:
-          -
-            type: groupvote
-            value: sherwood
-  -
-    delegate: liskpool.top
-    share: 90
-    website: https://liskpool.top/
-  -
-    delegate: gdtpool
-    share: 100
-    website: https://pool.liskgdt.net/
-    upgrades:
-      -
-        name: Silver Reward
-        type: cut_of_voters
-        value: gdt
-        requirements:
-          -
-            type: groupvote
-            value: gdt_sponsor
-      -
-        name: Gold Reward
-        type: cut_of_fixed_bonus
-        value: 400
-#            extra_desc_html: 'GDT Members donate a fixed amount of LISK to the pool as a bonus for Gold voters. More at <a href="https://pool.liskgdt.net/">gdtpool website</a>'
+        value: 31.25
         requirements:
           -
             type: groupvote
             value: gdt
   -
-    delegate: blink
-    share: 90
-  -
-    delegate: liskpool_com_01
-    share: 85
-    website: http://liskpool.com/
-  -
-    delegate: shinekami
-    share: 85
-    website: https://lskpool.lisk-ua.net/
-  -
-    delegate: communitypool
-    share: 80
-    website: https://communitypool.info/
-  -
-    delegate: thepool
-    share: 75
-    website: http://thepool.io/
-  -
-    delegate: olejegcord
-    share: 75
-  -
-    delegate: highrollerspool
-    share: 70
-  -
     delegate: philhellmuth
     share: 30
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 36.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
   -
-    delegate: sonobit
-    share: 60
+    delegate: punkrock
+    share: 6.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
   -
-    delegate: vega
-    share: 50
-  -
-    delegate: vipertkd
-    share: 50
-  -
-    delegate: techbytes
-    share: 50
-    website: https://lisk.cryptopools.com/
-  -
-    delegate: bangomatic
-    share: 50
-  -
-    delegate: thrice.pi_prometheus
-    share: 50
-  -
-    delegate: bitseed
-    share: 50
-  -
-    delegate: cad789
-    share: 50
-  -
-    delegate: axente
-    share: 50
-  -
-    delegate: kushed.delegate
-    share: 40
-
-  -
-    delegate: hagie
-    share: 40
-  -
-    delegate: hoop
-    share: 30
-  -
-    delegate: ondin
-    share: 25
-
+    delegate: redsn0w
+    share: 10
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 16.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
   -
     delegate: sgdias
     share: 30
     website: http://lisk.com.ar
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 36.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
+  -
+    delegate: slasheks
+    share: 25
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 31.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
+  -
+    delegate: splatters
+    share: 10
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 16.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
+  -
+    delegate: tembo
+    share: 15
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 21.25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
+  -
+    delegate: vekexasia
+    share: 18.75
+    notes: "vekexasia is the developer of this website!"
+    upgrades:
+      -
+        name: GDT Full Share
+        type: new_share
+        value: 25
+        requirements:
+          -
+            type: groupvote
+            value: gdt
+  -
+    delegate: vi1son
+    share: 46.25
+    requirements:
+      -
+        type: indexed
+        value: gdt
 
+  # ELITE
   -
     delegate: luiz
     share: 25
@@ -836,16 +906,313 @@ pools:
       -
         type: indexed
         value: elite
+
+  # ASCEND
   -
-    delegate: bioly
-    share: 25
-    website: http://pool.mylisk.com
-    
+    delegate: hirish
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
   -
-    delegate: forrest
+    delegate: moosty
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: nimbus
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: kylefromohio
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: goforlisk
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: anamix
+    share: 10
+    upgrades:
+      -
+        name: Ascend Share
+        type: new_share
+        value: 60
+        requirements:
+          -
+            type: groupvote
+            value: ascend
+  -
+    delegate: gregorst
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: sdrpa
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: roblad
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: lisktrust
+    share: 40
+    upgrades:
+      -
+        name: Ascend Share
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: ascend
+  -
+    delegate: slamper
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+  -
+    delegate: diamse
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: ascend
+
+  # OTHERS
+  -
+    delegate: mars
+    share: 75
+    notes: "Extra 5% community fund"
+  -
+    delegate: endro
+    share: 60
+    payout:
+      min: 1
+      schedule: week
+  -
+    delegate: kippers
+    share: 75
+    website: http://lisk.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: fnoufnou
+    share: 75
+    website: http://lisk.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: thamar
+    share: 75
+    website: http://lisk.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: st3v3n
+    share: 75
+    website: http://lisk.dutchpool.io
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: groupvote
+            value: dutch
+  -
+    delegate: dutch_pool
+    share: 90
+    website: http://lisk.dutchpool.io
+  -
+    delegate: sapiens.io
+    share: 60
+    website: http://sapiensproject.io
+    notes: extra 10% shared to dev projects
+  -
+    delegate: vrlc92
+    share: 50
+    website: http://vliskpool.com/
+    payout:
+      addresses:
+        - 17208736554155208523L
+  -
+    delegate: stoner19
+    share: 40
+  -
+    delegate: phoenix1969
+    share: 45
+    website: http://vote.phoenix1969.win/
+    requirements:
+      -
+        type: indexed
+        value: elite
+  -
+    delegate: bitbanksy
+    share: 60
+  -
+    delegate: bloqspace.io
+    share: 60
+  -
+    delegate: stellardynamic
+    share: 40
+  -
+    delegate: liskpro.com
+    website: http://liskpro.com
+    share: 80
+  -
+    delegate: atreides
+    share: 40
+  -
+    delegate: wannabe_rotebaron
+    share: 40
+
+  -
+    delegate: robinhood
+    share: 75
+    website: http://robinhood.liberspirita.net/
+    upgrades:
+      -
+        name: 100% Reward
+        type: new_share
+        value: 100
+        requirements:
+          -
+            type: vote
+            value: liberspirita
+      -
+        name: 120% Reward
+        type: new_share
+        value: 120
+        requirements:
+          -
+            type: groupvote
+            value: sherwood
+  -
+    delegate: liskpool.top
+    share: 90
+    website: https://liskpool.top/
+  -
+    delegate: gdtpool
+    share: 100
+    website: https://pool.liskgdt.net/
+    upgrades:
+      -
+        name: Silver Reward
+        type: cut_of_voters
+        value: gdt
+        requirements:
+          -
+            type: groupvote
+            value: gdt_sponsor
+  -
+    delegate: blink
+    share: 90
+  -
+    delegate: liskpool_com_01
+    share: 85
+    website: http://liskpool.com/
+  -
+    delegate: shinekami
+    share: 85
+    website: https://lskpool.lisk-ua.net/
+  -
+    delegate: communitypool
+    share: 80
+    website: https://communitypool.info/
+  -
+    delegate: thepool
+    share: 75
+    website: http://thepool.io/
+  -
+    delegate: olejegcord
+    share: 75
+  -
+    delegate: highrollerspool
+    share: 70
+
+  -
+    delegate: sonobit
+    share: 60
+  -
+    delegate: vega
+    share: 50
+  -
+    delegate: vipertkd
+    share: 50
+  -
+    delegate: techbytes
+    share: 50
+    website: https://lisk.cryptopools.com/
+  -
+    delegate: bangomatic
+    share: 50
+  -
+    delegate: thrice.pi_prometheus
+    share: 50
+  -
+    delegate: bitseed
+    share: 50
+  -
+    delegate: cad789
+    share: 50
+  -
+    delegate: axente
+    share: 50
+  -
+    delegate: hoop
+    share: 30
+
+  -
+    delegate: loveforever
     share: 25
-    website: http://lisk.forrestpool.win/
-    
+
   -
     delegate: samuray
     share: 50
@@ -855,10 +1222,7 @@ pools:
     payout:
       min: 1
       schedule: week
-  -
-    delegate: slasheks
-    share: 25
-    
+
   -
     delegate: index
     share: 25
@@ -874,45 +1238,15 @@ pools:
     delegate: djselery
     share: 25
   -
-    delegate: liskit
-    share: 20
-    website: http://liskit.me/
-    
-  -
     delegate: fulig
     share: 20
-  -
-    delegate: joel
-    share: 25
-    
-  -
-    delegate: dakk
-    share: 15
-    website: https://dakk.github.io/lisk-pool
-    
-  -
-    delegate: corsaro
-    share: 10
-    website: http://pool.liskworld.info/
-    
-  -
-    delegate: redsn0w
-    share: 10
-    
-  -
-    delegate: splatters
-    share: 10
-  -
-    delegate: mrv
-    share: 5
-    website: https://lisktools.io/profitShares.php
   -
     delegate: liskpoland.pl
     share: 80
     website: http://liskpoland.pl
   -
     delegate: 4fryn
-    share: 75
+    share: 60
     website: https://4fry.net
     payout:
       min: 1

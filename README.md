@@ -26,7 +26,7 @@ When opening an issue it will automatically prompt a body template to fill
 Yes At every master commit a travis build kicks in and generates JSON and JS data from the yaml source files. 
 The artifacts are stored in the [artifacts](https://github.com/vekexasia/dpos-tools-data/tree/artifacts) branch and are accessible through `gitcdn`.
 
-For example you can get the lisk `pools.json` by using `rawgit.com` services (here)[https://cdn.rawgit.com/vekexasia/dpos-tools-data/artifacts/lisk/pools.json].
+For example you can get the lisk `pools.json` by using `rawgit.com` services (here)[https://cdn.rawgit.com/vekexasia/dpos-tools-data/artifacts/lisk/pools.json]..
 
 
 ## Thanks
