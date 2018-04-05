@@ -120,5 +120,22 @@ __onz_pools([
   {
     "delegate": "nickl",
     "share": 50
+  },
+  {
+    "delegate": "djandre",
+    "share": 80,
+    "website": "http://onzpool.ovh"
+  },
+  {
+    "delegate": "serenity",
+    "share": 90
+  },
+  {
+    "delegate": "carsonpool",
+    "share": 90
+  },
+  {
+    "delegate": "worldcoinguy",
+    "share": 90
   }
 ]);
