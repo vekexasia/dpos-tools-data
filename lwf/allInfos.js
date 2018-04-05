@@ -1,5 +1,5 @@
 __lwf_allInfos({
-  "loadingHTML": "<p style=\"text-align:center; margin-top: 10px;\">Please wait...</p> <p style=\"text-align:center\">In the meanwhile it has been speculated that voting for <strong>onz</strong> reduces the time needed for the data to be ready :)</p>",
+  "loadingHTML": "<p style=\"text-align:center; margin-top: 10px;\">Please wait...</p>",
   "node": [
     "https://wallet.lwf.io"
   ],
@@ -138,7 +138,7 @@ __lwf_allInfos({
       "share": 80
     },
     {
-      "delegate": "serenetypool",
+      "delegate": "serenitypool",
       "share": 80
     },
     {
@@ -459,5 +459,8 @@ __lwf_allInfos({
       "delegate": "jokerellone",
       "share": 30
     }
+  ],
+  "promotedDelegates": [
+    "vekexasia"
   ]
 });

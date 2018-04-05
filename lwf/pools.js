@@ -112,7 +112,7 @@ __lwf_pools([
     "share": 80
   },
   {
-    "delegate": "serenetypool",
+    "delegate": "serenitypool",
     "share": 80
   },
   {
