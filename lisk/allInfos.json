@@ -520,24 +520,6 @@
       "share": 25
     },
     {
-      "delegate": "robinhood",
-      "share": 75,
-      "website": "http://robinhood.liberspirita.net/",
-      "upgrades": [
-        {
-          "name": "GDT Full Share",
-          "type": "new_share",
-          "value": 31.25,
-          "requirements": [
-            {
-              "type": "groupvote",
-              "value": "gdt"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "delegate": "philhellmuth",
       "share": 30,
       "upgrades": [
@@ -1620,10 +1602,6 @@
     {
       "delegate": "hoop",
       "share": 30
-    },
-    {
-      "delegate": "loveforever",
-      "share": 25
     },
     {
       "delegate": "samuray",
