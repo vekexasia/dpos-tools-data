@@ -119,8 +119,8 @@ __shift_pools([
   },
   {
     "delegate": "shift_tools",
-    "share": 35,
-    "website": "https://shift-tools.com/pool.html",
+    "share": 12,
+    "website": "http://shift-tools.com/lottery.html",
     "notes": "Depending on the month, the payout is either a lottery that rewards with physical gifts, or a the entirety of the bounty.",
     "payout": {
       "schedule": "monthly",
