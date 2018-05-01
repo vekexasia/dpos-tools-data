@@ -37,7 +37,6 @@ groups:
     tooltip: "Lisk Ascend Team"
     tag: "ASC"
     members:
-      - hirish
       - moosty
       - nimbus
       - kylefromohio
@@ -896,13 +895,6 @@ pools:
         value: elite
 
   # ASCEND
-  -
-    delegate: hirish
-    share: 50
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: moosty
     share: 50
