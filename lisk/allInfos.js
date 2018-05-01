@@ -324,19 +324,12 @@ __lisk_allInfos({
     },
     {
       "delegate": "forrest",
-      "share": 25,
+      "share": 20,
       "website": "http://lisk.forrestpool.win/",
-      "upgrades": [
+      "requirements": [
         {
-          "name": "GDT Full Share",
-          "type": "new_share",
-          "value": 31.25,
-          "requirements": [
-            {
-              "type": "groupvote",
-              "value": "gdt"
-            }
-          ]
+          "type": "indexed",
+          "value": "gdt"
         }
       ]
     },
