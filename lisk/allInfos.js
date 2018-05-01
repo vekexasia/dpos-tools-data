@@ -87,7 +87,7 @@ __lisk_allInfos({
       "tag": "GDT",
       "class": "md-primary",
       "members": [
-        "4miners.net",
+        "hirish",
         "5an1ty",
         "alepop",
         "bioly",
@@ -219,12 +219,19 @@ __lisk_allInfos({
       "website": "https://rencoin.io/lisk-delegate"
     },
     {
-      "delegate": "4miners.net",
-      "share": 6.25,
-      "requirements": [
+      "delegate": "hirish",
+      "share": 28.75,
+      "upgrades": [
         {
-          "type": "indexed",
-          "value": "gdt"
+          "name": "GDT Full Share",
+          "type": "new_share",
+          "value": 35,
+          "requirements": [
+            {
+              "type": "groupvote",
+              "value": "gdt"
+            }
+          ]
         }
       ]
     },

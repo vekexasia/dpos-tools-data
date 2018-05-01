@@ -45,7 +45,7 @@ __lisk_groups({
     "tag": "GDT",
     "class": "md-primary",
     "members": [
-      "4miners.net",
+      "hirish",
       "5an1ty",
       "alepop",
       "bioly",
