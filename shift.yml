@@ -21,6 +21,9 @@ groups:
       - thamar
 pools:
   -
+    delegate: dwarf
+    share: 80
+  -
     delegate: dutch_pool
     share: 90
     website: http://shift.dutchpool.io
