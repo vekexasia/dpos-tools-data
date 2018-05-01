@@ -21,6 +21,10 @@ groups:
       - thamar
 pools:
   -
+    delegate: lancekincaid
+    share: 80
+
+  -
     delegate: mx
     share: 80
     note: "50% to voters, 25% marketing, 5% team"
