@@ -3,7 +3,6 @@ __lisk_groups({
     "tooltip": "Lisk Ascend Team",
     "tag": "ASC",
     "members": [
-      "hirish",
       "moosty",
       "nimbus",
       "kylefromohio",

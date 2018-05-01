@@ -45,7 +45,6 @@ __lisk_allInfos({
       "tooltip": "Lisk Ascend Team",
       "tag": "ASC",
       "members": [
-        "hirish",
         "moosty",
         "nimbus",
         "kylefromohio",
@@ -1195,16 +1194,6 @@ __lisk_allInfos({
         {
           "type": "indexed",
           "value": "elite"
-        }
-      ]
-    },
-    {
-      "delegate": "hirish",
-      "share": 50,
-      "requirements": [
-        {
-          "type": "indexed",
-          "value": "ascend"
         }
       ]
     },

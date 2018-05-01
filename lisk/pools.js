@@ -990,16 +990,6 @@ __lisk_pools([
     ]
   },
   {
-    "delegate": "hirish",
-    "share": 50,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
-  },
-  {
     "delegate": "moosty",
     "share": 50,
     "requirements": [
