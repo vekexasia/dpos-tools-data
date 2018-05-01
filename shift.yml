@@ -21,6 +21,11 @@ groups:
       - thamar
 pools:
   -
+    delegate: mx
+    share: 80
+    note: "50% to voters, 25% marketing, 5% team"
+    website: https://t.me/infoMx
+  -
     delegate: dwarf
     share: 80
   -
