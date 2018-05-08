@@ -428,12 +428,12 @@ pools:
         value: gdt
   -
     delegate: redsn0w
-    share: 10
+    share: 5
     upgrades:
       -
         name: GDT Full Share
         type: new_share
-        value: 16.25
+        value: 11.25
         requirements:
           -
             type: groupvote
