@@ -303,12 +303,12 @@ pools:
         value: gdt
   -
     delegate: hagie
-    share: 40
+    share: 35
     upgrades:
       -
         name: GDT Full Share
         type: new_share
-        value: 46.25
+        value: 41.25
         requirements:
           -
             type: groupvote
