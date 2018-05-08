@@ -163,12 +163,12 @@ __lisk_pools([
   },
   {
     "delegate": "hagie",
-    "share": 40,
+    "share": 35,
     "upgrades": [
       {
         "name": "GDT Full Share",
         "type": "new_share",
-        "value": 46.25,
+        "value": 41.25,
         "requirements": [
           {
             "type": "groupvote",
@@ -339,12 +339,12 @@ __lisk_pools([
   },
   {
     "delegate": "redsn0w",
-    "share": 10,
+    "share": 5,
     "upgrades": [
       {
         "name": "GDT Full Share",
         "type": "new_share",
-        "value": 16.25,
+        "value": 11.25,
         "requirements": [
           {
             "type": "groupvote",

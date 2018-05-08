@@ -1346,10 +1346,9 @@ __oxy_allInfos({
     },
     {
       "delegate": "ampsicora",
-      "share": 92,
-      "website": "http://www.ampsicora-pools.ml",
+      "share": 30,
       "payout": {
-        "min": 0.5,
+        "min": 0.01,
         "schedule": "monthly"
       }
     },
