@@ -502,7 +502,7 @@ pools:
             value: gdt
   -
     delegate: vi1son
-    share: 46.25
+    share: 25
     requirements:
       -
         type: indexed
