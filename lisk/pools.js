@@ -443,7 +443,7 @@ __lisk_pools([
   },
   {
     "delegate": "vi1son",
-    "share": 46.25,
+    "share": 25,
     "requirements": [
       {
         "type": "indexed",
