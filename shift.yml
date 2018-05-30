@@ -278,7 +278,7 @@ pools:
   -
     delegate: dimm86
     share: 20
-    website: https://shiftpool.info/
+    website: http://dimmshiftpool.ovh/
     payout:
       schedule: weekly
       addresses:
