@@ -28,7 +28,12 @@ pools:
     delegate: mx
     share: 80
     note: "50% to voters, 25% marketing, 5% team"
-    website: https://t.me/infoMx
+    website: http://telegra.ph/Vote-for-Mx-05-28
+    payout:
+      min: 0.1
+      schedule: monthly
+      addresses:
+        - 4446910057799968777S
   -
     delegate: dwarf
     share: 80
