@@ -163,8 +163,9 @@ pools:
     share: 40
   -
     delegate: kicken
-    share: 10
+    share: 65
     notes: "kicken also share 10% with the shift team"
+    website: https://shift.kicken.tech
   -
     delegate: samuel_paulsun
     share: 15
