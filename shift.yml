@@ -23,6 +23,10 @@ pools:
   -
     delegate: lancekincaid
     share: 80
+  -
+    delegate: terrabellus
+    share: 40
+    notes: "An extra 10% be donated to development team"
 
   -
     delegate: mx
