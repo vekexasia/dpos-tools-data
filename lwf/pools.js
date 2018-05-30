@@ -436,6 +436,6 @@ __lwf_pools([
   },
   {
     "delegate": "jokerellone",
-    "share": 30
+    "share": 61
   }
 ]);

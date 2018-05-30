@@ -1062,14 +1062,6 @@ __oxy_pools([
     ]
   },
   {
-    "delegate": "ondin",
-    "share": 25,
-    "payout": {
-      "min": 0.5,
-      "schedule": "daily"
-    }
-  },
-  {
     "delegate": "ilie_156",
     "share": 50,
     "website": "http://ilie156.myoxy.pw",

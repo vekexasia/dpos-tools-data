@@ -1244,7 +1244,12 @@ __lisk_pools([
   },
   {
     "delegate": "stellardynamic",
-    "share": 40
+    "share": 40,
+    "website": "http://pool.stellardynamic.io/",
+    "payout": {
+      "schedule": "weekly",
+      "min": 1
+    }
   },
   {
     "delegate": "liskpro.com",

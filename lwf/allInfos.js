@@ -462,7 +462,7 @@ __lwf_allInfos({
     },
     {
       "delegate": "jokerellone",
-      "share": 30
+      "share": 61
     }
   ],
   "promotedDelegates": [
