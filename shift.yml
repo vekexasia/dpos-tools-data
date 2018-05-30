@@ -389,9 +389,7 @@ pools:
         - 358269971416095878S
   -
     delegate: ampsicora
-    share: 22
-    website: https://ampsicora.github.io/shift-pool/
-
+    share: 20
     payout:
       schedule: weekly
       min: 0.1
