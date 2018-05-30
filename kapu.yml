@@ -31,9 +31,6 @@ pools:
     delegate: toons
     share: 60
   -
-    delegate: ampsicora
-    share: 50
-  -
     delegate: gsilvestri
     share: 65
   -
