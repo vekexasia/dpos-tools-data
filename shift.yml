@@ -127,7 +127,8 @@ pools:
     share: 40
   -
     delegate: pnwdrew
-    share: 80
+    share: 50
+    website: https://pnwdrew.shift.dpos-pool-info.com
   -
     delegate: shift_tools
     share: 12
