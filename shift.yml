@@ -31,7 +31,7 @@ pools:
   -
     delegate: mx
     share: 80
-    note: "50% to voters, 25% marketing, 5% team"
+    notes: "50% to voters, 25% marketing, 5% team"
     website: http://telegra.ph/Vote-for-Mx-05-28
     payout:
       min: 0.1
