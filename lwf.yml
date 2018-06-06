@@ -166,7 +166,7 @@ pools:
     share: 80
   -
     delegate: cool_pool
-    share: 80
+    share: 60
     website: http://www.lwfcoolpool.ovh
   -
     delegate: lwf_share_pool
