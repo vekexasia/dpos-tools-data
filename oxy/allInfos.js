@@ -1313,7 +1313,7 @@ __oxy_allInfos({
     },
     {
       "delegate": "djandre",
-      "share": 80,
+      "share": 30,
       "website": "http://oxypool.ovh",
       "payout": {
         "min": 1,

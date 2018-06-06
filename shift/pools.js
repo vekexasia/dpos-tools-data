@@ -11,7 +11,7 @@ __shift_pools([
   {
     "delegate": "mx",
     "share": 80,
-    "note": "50% to voters, 25% marketing, 5% team",
+    "notes": "50% to voters, 25% marketing, 5% team",
     "website": "http://telegra.ph/Vote-for-Mx-05-28",
     "payout": {
       "min": 0.1,
@@ -141,7 +141,8 @@ __shift_pools([
   },
   {
     "delegate": "pnwdrew",
-    "share": 80
+    "share": 50,
+    "website": "https://pnwdrew.shift.dpos-pool-info.com"
   },
   {
     "delegate": "shift_tools",
