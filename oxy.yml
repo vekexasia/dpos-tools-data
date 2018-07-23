@@ -995,7 +995,8 @@ pools:
     website: http://oxy.maxwell.co.at
   -
     delegate: deadpool
-    share: 91
+    share: 80
+    website: https://www.oxypool.deadpool.cf/
   -
     delegate: bon.bini_pool
     share: 75
