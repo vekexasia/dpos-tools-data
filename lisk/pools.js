@@ -1322,7 +1322,7 @@ __lisk_pools([
   },
   {
     "delegate": "liskpool_com_01",
-    "share": 85,
+    "share": 50,
     "website": "http://liskpool.com/"
   },
   {
