@@ -1545,7 +1545,7 @@ __lisk_allInfos({
     },
     {
       "delegate": "thepool",
-      "share": 75,
+      "share": 50,
       "website": "http://thepool.io/"
     },
     {
