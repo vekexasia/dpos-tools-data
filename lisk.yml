@@ -227,7 +227,7 @@ pools:
   -
     delegate: bioly
     share: 20
-    website: http://pool.mylisk.com
+    website: https://mylisk.com/pool
     upgrades:
       -
         name: GDT Full Share
