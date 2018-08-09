@@ -226,13 +226,13 @@ pools:
             value: gdt
   -
     delegate: bioly
-    share: 25
+    share: 20
     website: http://pool.mylisk.com
     upgrades:
       -
         name: GDT Full Share
         type: new_share
-        value: 31.25
+        value: 26.25
         requirements:
           -
             type: groupvote
