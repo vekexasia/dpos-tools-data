@@ -55,13 +55,13 @@ __lisk_pools([
   },
   {
     "delegate": "bioly",
-    "share": 25,
-    "website": "http://pool.mylisk.com",
+    "share": 20,
+    "website": "https://mylisk.com/pool",
     "upgrades": [
       {
         "name": "GDT Full Share",
         "type": "new_share",
-        "value": 31.25,
+        "value": 26.25,
         "requirements": [
           {
             "type": "groupvote",
