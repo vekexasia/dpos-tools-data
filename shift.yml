@@ -319,7 +319,7 @@ pools:
         - 2675385658327038858S
   -
     delegate: mg_pool
-    share: 50
+    share: 40
     website: http://pool.mgshift.com/
     payout:
       addresses:
