@@ -421,7 +421,7 @@ __shift_allInfos({
     },
     {
       "delegate": "mg_pool",
-      "share": 50,
+      "share": 40,
       "website": "http://pool.mgshift.com/",
       "payout": {
         "addresses": [
