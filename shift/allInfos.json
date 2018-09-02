@@ -35,7 +35,7 @@
     {
       "delegate": "mx",
       "share": 80,
-      "notes": "50% to voters, 25% marketing, 5% team",
+      "notes": "50% to voters, 30% marketing",
       "website": "http://telegra.ph/Vote-for-Mx-05-28",
       "payout": {
         "min": 0.1,
@@ -222,11 +222,6 @@
     {
       "delegate": "samuel_paulsun",
       "share": 15
-    },
-    {
-      "delegate": "saluki",
-      "share": 50,
-      "notes": "Saluki Pool will share his forge with dev team."
     },
     {
       "delegate": "bawga",
@@ -448,16 +443,6 @@
       }
     },
     {
-      "delegate": "shiftspider",
-      "share": 50,
-      "website": "https://pool.shiftforging.org",
-      "payout": {
-        "addresses": [
-          "13821742652466895801S"
-        ]
-      }
-    },
-    {
       "delegate": "shiftraider",
       "share": 50,
       "website": "https://pool.shiftraider.com",
@@ -601,6 +586,11 @@
         "schedule": "weekly",
         "min": 0.1
       }
+    },
+    {
+      "delegate": "mrwhite",
+      "share": 10,
+      "website": "http://shift.maxwell.co.at"
     }
   ],
   "promotedDelegates": [
