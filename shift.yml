@@ -333,13 +333,6 @@ pools:
       addresses:
         - 15999348859093551866S
   -
-    delegate: shiftspider
-    share: 50
-    website: https://pool.shiftforging.org
-    payout:
-      addresses:
-        - 13821742652466895801S
-  -
     delegate: shiftraider
     share: 50
     website: https://pool.shiftraider.com
