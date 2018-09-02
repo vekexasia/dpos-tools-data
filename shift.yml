@@ -443,6 +443,11 @@ pools:
     payout:
       schedule: weekly
       min: 0.1
+  -
+    delegate: mrwhite
+    share: 10
+    website: http://shift.maxwell.co.at
+
 
 promotedDelegates:
   - vekexasia
