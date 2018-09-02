@@ -10,7 +10,7 @@ __shift_pools([
   },
   {
     "delegate": "mx",
-    "share": 80,
+    "share": 50,
     "notes": "50% to voters, 30% marketing",
     "website": "http://telegra.ph/Vote-for-Mx-05-28",
     "payout": {
