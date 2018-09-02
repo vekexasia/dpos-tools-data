@@ -176,10 +176,6 @@ pools:
     share: 15
 
   -
-    delegate: saluki
-    share: 50
-    notes: "Saluki Pool will share his forge with dev team."
-  -
     delegate: bawga
     share: 50
     website: http://bawga.shiftnode.info/
