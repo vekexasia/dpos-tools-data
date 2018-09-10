@@ -22,6 +22,10 @@ groups:
       - dutch_pool
 pools:
   -
+    delegate: lwffaucet
+    share: 100
+    website: http://lwfpool.com
+  -
     delegate: thamar
     share: 90
     website: http://onz.dutchpool.io
@@ -84,7 +88,7 @@ pools:
     share: 82
   -
     delegate: scinti46
-    share: 82
+    share: 55
   -
     delegate: gandalf_pool
     share: 81
@@ -162,7 +166,7 @@ pools:
     share: 80
   -
     delegate: cool_pool
-    share: 80
+    share: 60
     website: http://www.lwfcoolpool.ovh
   -
     delegate: lwf_share_pool
@@ -350,6 +354,6 @@ pools:
     share: 45
   -
     delegate: jokerellone
-    share: 30
+    share: 61
 promotedDelegates:
   - vekexasia

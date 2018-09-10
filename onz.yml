@@ -121,7 +121,7 @@ pools:
     share: 50
   -
     delegate: djandre
-    share: 80
+    share: 90
     website: http://onzpool.ovh
   -
     delegate: serenity

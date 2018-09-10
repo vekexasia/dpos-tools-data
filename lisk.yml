@@ -37,7 +37,6 @@ groups:
     tooltip: "Lisk Ascend Team"
     tag: "ASC"
     members:
-      - hirish
       - moosty
       - nimbus
       - kylefromohio
@@ -73,7 +72,7 @@ groups:
     tag: "GDT"
     class: md-primary
     members:
-      - 4miners.net
+      - hirish
       - 5an1ty
       - alepop
       - bioly
@@ -195,12 +194,17 @@ pools:
     share: 70
     website: https://rencoin.io/lisk-delegate
   # GDT
-  - delegate: 4miners.net
-    share: 6.25
-    requirements:
+  - delegate: hirish
+    share: 28.75
+    upgrades:
       -
-        type: indexed
-        value: gdt
+        name: GDT Full Share
+        type: new_share
+        value: 35
+        requirements:
+          -
+            type: groupvote
+            value: gdt
   -
     delegate: 5an1ty
     share: 25
@@ -222,13 +226,13 @@ pools:
             value: gdt
   -
     delegate: bioly
-    share: 25
-    website: http://pool.mylisk.com
+    share: 20
+    website: https://mylisk.com/pool
     upgrades:
       -
         name: GDT Full Share
         type: new_share
-        value: 31.25
+        value: 26.25
         requirements:
           -
             type: groupvote
@@ -270,17 +274,12 @@ pools:
         value: gdt
   -
     delegate: forrest
-    share: 25
+    share: 20
     website: http://lisk.forrestpool.win/
-    upgrades:
+    requirements:
       -
-        name: GDT Full Share
-        type: new_share
-        value: 31.25
-        requirements:
-          -
-            type: groupvote
-            value: gdt
+        type: indexed
+        value: gdt
   -
     delegate: goldeneye
     share: 6.25
@@ -304,12 +303,12 @@ pools:
         value: gdt
   -
     delegate: hagie
-    share: 40
+    share: 35
     upgrades:
       -
         name: GDT Full Share
         type: new_share
-        value: 46.25
+        value: 41.25
         requirements:
           -
             type: groupvote
@@ -429,12 +428,12 @@ pools:
         value: gdt
   -
     delegate: redsn0w
-    share: 10
+    share: 5
     upgrades:
       -
         name: GDT Full Share
         type: new_share
-        value: 16.25
+        value: 11.25
         requirements:
           -
             type: groupvote
@@ -503,7 +502,7 @@ pools:
             value: gdt
   -
     delegate: vi1son
-    share: 46.25
+    share: 25
     requirements:
       -
         type: indexed
@@ -897,13 +896,6 @@ pools:
 
   # ASCEND
   -
-    delegate: hirish
-    share: 50
-    requirements:
-      -
-        type: indexed
-        value: ascend
-  -
     delegate: moosty
     share: 50
     requirements:
@@ -1090,6 +1082,10 @@ pools:
   -
     delegate: stellardynamic
     share: 40
+    website: http://pool.stellardynamic.io/
+    payout:
+      schedule: weekly
+      min: 1
   -
     delegate: liskpro.com
     website: http://liskpro.com
@@ -1144,7 +1140,7 @@ pools:
     share: 90
   -
     delegate: liskpool_com_01
-    share: 85
+    share: 50
     website: http://liskpool.com/
   -
     delegate: shinekami
@@ -1156,7 +1152,7 @@ pools:
     website: https://communitypool.info/
   -
     delegate: thepool
-    share: 75
+    share: 50
     website: http://thepool.io/
   -
     delegate: olejegcord

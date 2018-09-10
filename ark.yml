@@ -35,7 +35,7 @@ pools:
     share: 40
   -
     delegate: bioly
-    share: 70
+    share: 90
   -
     delegate: corsaro
     share: 50

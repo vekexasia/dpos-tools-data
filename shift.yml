@@ -3,7 +3,7 @@ node: https://wallet.shiftnrg.org
 epoch: 2016-04-24_17:00:00
 numForgers: 101
 maxVotes: 101
-blockExplorer: "https://wallet.rise.vision"
+blockExplorer: "https://explorer.shiftnrg.org"
 blockTime: 27
 addressRegex: "^([0-9]{1,21}[S|s])$"
 hasGroups: true
@@ -20,6 +20,27 @@ groups:
       - dutch_pool
       - thamar
 pools:
+  -
+    delegate: lancekincaid
+    share: 80
+  -
+    delegate: terrabellus
+    share: 40
+    notes: "An extra 10% be donated to development team"
+
+  -
+    delegate: mx
+    share: 50
+    notes: "50% to voters, 30% marketing"
+    website: http://telegra.ph/Vote-for-Mx-05-28
+    payout:
+      min: 0.1
+      schedule: monthly
+      addresses:
+        - 4446910057799968777S
+  -
+    delegate: dwarf
+    share: 80
   -
     delegate: dutch_pool
     share: 90
@@ -106,11 +127,12 @@ pools:
     share: 40
   -
     delegate: pnwdrew
-    share: 80
+    share: 50
+    website: https://pnwdrew.shift.dpos-pool-info.com
   -
     delegate: shift_tools
-    share: 35
-    website: https://shift-tools.com/pool.html
+    share: 12
+    website: http://shift-tools.com/lottery.html
     notes: "Depending on the month, the payout is either a lottery that rewards with physical gifts, or a the entirety of the bounty."
     payout:
       schedule: monthly
@@ -118,7 +140,7 @@ pools:
 
   -
     delegate: deadpool
-    share: 80
+    share: 40
     website: https://public.tableau.com/views/ShiftPoolAnalysis/Analysis
     payout:
       min: 0.01
@@ -130,7 +152,7 @@ pools:
     website: http://neuthor.site
   -
     delegate: carsonpool
-    share: 50
+    share: 40
     payout:
       min: 0.1
       schedule: weekly
@@ -146,16 +168,13 @@ pools:
     share: 40
   -
     delegate: kicken
-    share: 10
+    share: 65
     notes: "kicken also share 10% with the shift team"
+    website: https://shift.kicken.tech
   -
     delegate: samuel_paulsun
     share: 15
 
-  -
-    delegate: saluki
-    share: 50
-    notes: "Saluki Pool will share his forge with dev team."
   -
     delegate: bawga
     share: 50
@@ -256,7 +275,7 @@ pools:
   -
     delegate: dimm86
     share: 20
-    website: https://shiftpool.info/
+    website: http://dimmshiftpool.ovh/
     payout:
       schedule: weekly
       addresses:
@@ -296,7 +315,7 @@ pools:
         - 2675385658327038858S
   -
     delegate: mg_pool
-    share: 50
+    share: 40
     website: http://pool.mgshift.com/
     payout:
       addresses:
@@ -313,13 +332,6 @@ pools:
     payout:
       addresses:
         - 15999348859093551866S
-  -
-    delegate: shiftspider
-    share: 50
-    website: https://pool.shiftforging.org
-    payout:
-      addresses:
-        - 13821742652466895801S
   -
     delegate: shiftraider
     share: 50
@@ -371,9 +383,7 @@ pools:
         - 358269971416095878S
   -
     delegate: ampsicora
-    share: 22
-    website: https://ampsicora.github.io/shift-pool/
-
+    share: 20
     payout:
       schedule: weekly
       min: 0.1
@@ -426,6 +436,11 @@ pools:
     payout:
       schedule: weekly
       min: 0.1
+  -
+    delegate: mrwhite
+    share: 10
+    website: http://shift.maxwell.co.at
+
 
 promotedDelegates:
   - vekexasia
