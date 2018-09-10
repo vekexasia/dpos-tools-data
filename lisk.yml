@@ -1124,7 +1124,7 @@ pools:
             value: sherwood
   -
     delegate: liskpool.top
-    share: 90
+    share: 85
     website: https://liskpool.top/
   -
     delegate: gdtpool
