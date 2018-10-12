@@ -121,6 +121,9 @@ pools:
     delegate: felix_delegate
     share: 50
   -
+    delegate: shiftysailor
+    share: 70
+  -
     delegate: dotnet70
     share: 20
   -
