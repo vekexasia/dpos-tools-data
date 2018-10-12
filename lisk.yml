@@ -1120,7 +1120,7 @@ pools:
             value: sherwood
   -
     delegate: liskpool.top
-    share: 90
+    share: 85
     website: https://liskpool.top/
   -
     delegate: gdtpool
@@ -1152,7 +1152,7 @@ pools:
     website: https://communitypool.info/
   -
     delegate: thepool
-    share: 50
+    share: 35
     website: http://thepool.io/
   -
     delegate: olejegcord
