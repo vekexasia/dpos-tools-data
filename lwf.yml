@@ -98,7 +98,7 @@ pools:
     website: http://lwf.ostapische.ru
   -
     delegate: djandre_pool
-    share: 80
+    share: 50
     website: http://lwfpool.ovh/
   -
     delegate: lwf.dpospool.io
