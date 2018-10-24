@@ -991,7 +991,7 @@ __lisk_pools([
   },
   {
     "delegate": "moosty",
-    "share": 50,
+    "share": 55,
     "requirements": [
       {
         "type": "indexed",
@@ -1001,7 +1001,7 @@ __lisk_pools([
   },
   {
     "delegate": "nimbus",
-    "share": 50,
+    "share": 55,
     "requirements": [
       {
         "type": "indexed",
@@ -1011,7 +1011,7 @@ __lisk_pools([
   },
   {
     "delegate": "kylefromohio",
-    "share": 50,
+    "share": 55,
     "requirements": [
       {
         "type": "indexed",
@@ -1020,8 +1020,8 @@ __lisk_pools([
     ]
   },
   {
-    "delegate": "goforlisk",
-    "share": 50,
+    "delegate": "crypto_embassy",
+    "share": 55,
     "requirements": [
       {
         "type": "indexed",
@@ -1031,24 +1031,17 @@ __lisk_pools([
   },
   {
     "delegate": "anamix",
-    "share": 10,
-    "upgrades": [
+    "share": 55,
+    "requirements": [
       {
-        "name": "Ascend Share",
-        "type": "new_share",
-        "value": 60,
-        "requirements": [
-          {
-            "type": "groupvote",
-            "value": "ascend"
-          }
-        ]
+        "type": "indexed",
+        "value": "ascend"
       }
     ]
   },
   {
-    "delegate": "gregorst",
-    "share": 50,
+    "delegate": "southpaw439",
+    "share": 55,
     "requirements": [
       {
         "type": "indexed",
@@ -1058,7 +1051,7 @@ __lisk_pools([
   },
   {
     "delegate": "sdrpa",
-    "share": 50,
+    "share": 55,
     "requirements": [
       {
         "type": "indexed",
@@ -1067,35 +1060,18 @@ __lisk_pools([
     ]
   },
   {
-    "delegate": "roblad",
-    "share": 50,
+    "delegate": "liskmagazine",
+    "share": 55,
     "requirements": [
       {
         "type": "indexed",
         "value": "ascend"
-      }
-    ]
-  },
-  {
-    "delegate": "lisktrust",
-    "share": 40,
-    "upgrades": [
-      {
-        "name": "Ascend Share",
-        "type": "new_share",
-        "value": 90,
-        "requirements": [
-          {
-            "type": "groupvote",
-            "value": "ascend"
-          }
-        ]
       }
     ]
   },
   {
     "delegate": "slamper",
-    "share": 50,
+    "share": 55,
     "requirements": [
       {
         "type": "indexed",
@@ -1105,7 +1081,7 @@ __lisk_pools([
   },
   {
     "delegate": "diamse",
-    "share": 50,
+    "share": 55,
     "requirements": [
       {
         "type": "indexed",
@@ -1440,5 +1416,10 @@ __lisk_pools([
   {
     "delegate": "elevate",
     "share": 50
+  },
+  {
+    "delegate": "liskascend",
+    "website": "https://liskascend.com/",
+    "share": 90
   }
 ]);

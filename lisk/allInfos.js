@@ -44,18 +44,17 @@ __lisk_allInfos({
     "ascend": {
       "tooltip": "Lisk Ascend Team",
       "tag": "ASC",
+      "class": "md-ascend",
       "members": [
         "moosty",
         "nimbus",
         "kylefromohio",
-        "goforlisk",
+        "crypto_embassy",
         "anamix",
-        "gregorst",
+        "southpaw439",
         "sdrpa",
-        "roblad",
-        "lisktrust",
+        "liskmagazine",
         "slamper",
-        "puredelta",
         "diamse"
       ]
     },
@@ -200,9 +199,10 @@ __lisk_allInfos({
         "liberspirita",
         "robinhood",
         "liskpro.com",
-        "bitbanksy",
+        "phoenix1969",
         "4fryn",
-        "bloqspace.io"
+        "bloqspace.io",
+        "liskascend"
       ]
     }
   },
@@ -1199,7 +1199,7 @@ __lisk_allInfos({
     },
     {
       "delegate": "moosty",
-      "share": 50,
+      "share": 55,
       "requirements": [
         {
           "type": "indexed",
@@ -1209,7 +1209,7 @@ __lisk_allInfos({
     },
     {
       "delegate": "nimbus",
-      "share": 50,
+      "share": 55,
       "requirements": [
         {
           "type": "indexed",
@@ -1219,7 +1219,7 @@ __lisk_allInfos({
     },
     {
       "delegate": "kylefromohio",
-      "share": 50,
+      "share": 55,
       "requirements": [
         {
           "type": "indexed",
@@ -1228,8 +1228,8 @@ __lisk_allInfos({
       ]
     },
     {
-      "delegate": "goforlisk",
-      "share": 50,
+      "delegate": "crypto_embassy",
+      "share": 55,
       "requirements": [
         {
           "type": "indexed",
@@ -1239,24 +1239,17 @@ __lisk_allInfos({
     },
     {
       "delegate": "anamix",
-      "share": 10,
-      "upgrades": [
+      "share": 55,
+      "requirements": [
         {
-          "name": "Ascend Share",
-          "type": "new_share",
-          "value": 60,
-          "requirements": [
-            {
-              "type": "groupvote",
-              "value": "ascend"
-            }
-          ]
+          "type": "indexed",
+          "value": "ascend"
         }
       ]
     },
     {
-      "delegate": "gregorst",
-      "share": 50,
+      "delegate": "southpaw439",
+      "share": 55,
       "requirements": [
         {
           "type": "indexed",
@@ -1266,7 +1259,7 @@ __lisk_allInfos({
     },
     {
       "delegate": "sdrpa",
-      "share": 50,
+      "share": 55,
       "requirements": [
         {
           "type": "indexed",
@@ -1275,35 +1268,18 @@ __lisk_allInfos({
       ]
     },
     {
-      "delegate": "roblad",
-      "share": 50,
+      "delegate": "liskmagazine",
+      "share": 55,
       "requirements": [
         {
           "type": "indexed",
           "value": "ascend"
-        }
-      ]
-    },
-    {
-      "delegate": "lisktrust",
-      "share": 40,
-      "upgrades": [
-        {
-          "name": "Ascend Share",
-          "type": "new_share",
-          "value": 90,
-          "requirements": [
-            {
-              "type": "groupvote",
-              "value": "ascend"
-            }
-          ]
         }
       ]
     },
     {
       "delegate": "slamper",
-      "share": 50,
+      "share": 55,
       "requirements": [
         {
           "type": "indexed",
@@ -1313,7 +1289,7 @@ __lisk_allInfos({
     },
     {
       "delegate": "diamse",
-      "share": 50,
+      "share": 55,
       "requirements": [
         {
           "type": "indexed",
@@ -1648,6 +1624,11 @@ __lisk_allInfos({
     {
       "delegate": "elevate",
       "share": 50
+    },
+    {
+      "delegate": "liskascend",
+      "website": "https://liskascend.com/",
+      "share": 90
     }
   ]
 });
