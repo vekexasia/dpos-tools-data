@@ -1201,14 +1201,8 @@ __lisk_pools([
   },
   {
     "delegate": "phoenix1969",
-    "share": 45,
-    "website": "http://vote.phoenix1969.win/",
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "elite"
-      }
-    ]
+    "share": 60,
+    "website": "http://feanix.io/"
   },
   {
     "delegate": "bitbanksy",
