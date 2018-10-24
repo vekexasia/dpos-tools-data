@@ -36,6 +36,7 @@ groups:
   ascend:
     tooltip: "Lisk Ascend Team"
     tag: "ASC"
+    class: md-ascend
     members:
       - moosty
       - nimbus
