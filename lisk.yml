@@ -1218,7 +1218,7 @@ pools:
     requirements:
       -
         type: indexed
-        value: shw
+        value: sherwood
     upgrades:
       -
         name: 90% Reward
