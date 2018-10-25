@@ -1354,6 +1354,25 @@ __lisk_pools([
   {
     "delegate": "liskascend",
     "website": "https://liskascend.com/",
-    "share": 90
+    "share": 50,
+    "requirements": [
+      {
+        "type": "indexed",
+        "value": "sherwood"
+      }
+    ],
+    "upgrades": [
+      {
+        "name": "90% Reward",
+        "type": "new_share",
+        "value": 90,
+        "requirements": [
+          {
+            "type": "vote",
+            "value": "moosty"
+          }
+        ]
+      }
+    ]
   }
 ]);

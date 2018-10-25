@@ -10,5 +10,11 @@ __lisk_indexedReqs({
       "type": "groupvote",
       "value": "gdt"
     }
+  ],
+  "shw": [
+    {
+      "type": "groupvote",
+      "value": "sherwood"
+    }
   ]
 });
