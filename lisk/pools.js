@@ -991,103 +991,43 @@ __lisk_pools([
   },
   {
     "delegate": "moosty",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "nimbus",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "kylefromohio",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "crypto_embassy",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "anamix",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "southpaw439",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "sdrpa",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "liskmagazine",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "slamper",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "diamse",
-    "share": 55,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "ascend"
-      }
-    ]
+    "share": 55
   },
   {
     "delegate": "mars",
