@@ -21,12 +21,6 @@ __lisk_allInfos({
     "vekexasia"
   ],
   "indexedRequirements": {
-    "ascend": [
-      {
-        "type": "groupvote",
-        "value": "ascend"
-      }
-    ],
     "elite": [
       {
         "type": "groupvote",
