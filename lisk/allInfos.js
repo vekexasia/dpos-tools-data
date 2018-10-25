@@ -33,7 +33,7 @@ __lisk_allInfos({
         "value": "gdt"
       }
     ],
-    "shw": [
+    "sherwood": [
       {
         "type": "groupvote",
         "value": "sherwood"

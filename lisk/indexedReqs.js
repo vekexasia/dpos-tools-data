@@ -11,7 +11,7 @@ __lisk_indexedReqs({
       "value": "gdt"
     }
   ],
-  "shw": [
+  "sherwood": [
     {
       "type": "groupvote",
       "value": "sherwood"
