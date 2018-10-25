@@ -894,73 +894,33 @@ pools:
   -
     delegate: moosty
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: nimbus
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: kylefromohio
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: crypto_embassy
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: anamix
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: southpaw439
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: sdrpa
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: liskmagazine
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: slamper
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
   -
     delegate: diamse
     share: 55
-    requirements:
-      -
-        type: indexed
-        value: ascend
 
   # OTHERS
   -
