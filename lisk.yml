@@ -28,6 +28,10 @@ indexedRequirements:
     -
       type: groupvote
       value: gdt
+  shw:
+    -
+      type: groupvote
+      value: sherwood
 groups:
   ascend:
     tooltip: "Lisk Ascend Team"
@@ -1210,4 +1214,17 @@ pools:
   -
     delegate: liskascend
     website: https://liskascend.com/
-    share: 90
+    share: 50
+    requirements:
+      -
+        type: indexed
+        value: shw
+    upgrades:
+      -
+        name: 90% Reward
+        type: new_share
+        value: 90
+        requirements:
+          -
+            type: vote
+            value: moosty
