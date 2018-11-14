@@ -324,7 +324,7 @@ pools:
         - 12382181999476449415S
   -
     delegate: shozay_pool
-    share: 40
+    share: 30
     payout:
       addresses:
         - 15999348859093551866S
