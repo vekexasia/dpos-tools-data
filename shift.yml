@@ -238,7 +238,7 @@ pools:
         - 15875013840282793934S
   -
     delegate: redpool
-    share: 40
+    share: 30
     payout:
       addresses:
         - 8909782982051000850S
