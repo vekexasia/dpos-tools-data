@@ -10,19 +10,6 @@ __shift_pools([
     "website": "https://terrabellus.studyshift.net"
   },
   {
-    "delegate": "mx",
-    "share": 50,
-    "notes": "50% to voters, 30% marketing",
-    "website": "http://pool.votefor.mx",
-    "payout": {
-      "min": 0.1,
-      "schedule": "monthly",
-      "addresses": [
-        "4446910057799968777S"
-      ]
-    }
-  },
-  {
     "delegate": "dwarf",
     "share": 80
   },
@@ -95,6 +82,17 @@ __shift_pools([
     "payout": {
       "schedule": "weekly",
       "min": 0.2
+    }
+  },
+  {
+    "delegate": "dwildcash",
+    "share": 50,
+    "payout": {
+      "schedule": "weekly",
+      "min": 0.1,
+      "addresses": [
+        "5263887536226471487S"
+      ]
     }
   },
   {
@@ -366,9 +364,10 @@ __shift_pools([
   },
   {
     "delegate": "djandre",
-    "share": 25,
+    "share": 20,
     "website": "https://shiftpool.pw",
     "payout": {
+      "min": 0.5,
       "addresses": [
         "14201120872392502702S"
       ]

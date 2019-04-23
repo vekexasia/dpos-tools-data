@@ -10,6 +10,15 @@ __lisk_pools([
     "website": "https://rencoin.io/lisk-delegate"
   },
   {
+    "delegate": "joel",
+    "share": 50,
+    "website": "https://jfernanz.github.io/lisk-pool/",
+    "payout": {
+      "min": 0.5,
+      "schedule": "week"
+    }
+  },
+  {
     "delegate": "hirish",
     "share": 28.75,
     "upgrades": [
@@ -28,7 +37,17 @@ __lisk_pools([
   },
   {
     "delegate": "5an1ty",
-    "share": 18.75,
+    "share": 25,
+    "requirements": [
+      {
+        "type": "indexed",
+        "value": "gdt"
+      }
+    ]
+  },
+  {
+    "delegate": "tonyt908",
+    "share": 25,
     "requirements": [
       {
         "type": "indexed",
@@ -181,16 +200,6 @@ __lisk_pools([
   {
     "delegate": "hmachado",
     "share": 6.25,
-    "requirements": [
-      {
-        "type": "indexed",
-        "value": "gdt"
-      }
-    ]
-  },
-  {
-    "delegate": "joel",
-    "share": 25,
     "requirements": [
       {
         "type": "indexed",

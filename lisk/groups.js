@@ -58,7 +58,7 @@ __lisk_groups({
       "grumlin",
       "hagie",
       "hmachado",
-      "joel",
+      "tonyt908",
       "joo5ty",
       "kushed.delegate",
       "liskgate",
@@ -157,8 +157,6 @@ __lisk_groups({
       "liberspirita",
       "robinhood",
       "liskpro.com",
-      "phoenix1969",
-      "4fryn",
       "bloqspace.io",
       "liskascend"
     ]
