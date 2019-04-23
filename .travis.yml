@@ -4,8 +4,6 @@ node_js:
 before_deploy:
   - npm run build
 deploy:
-  edge:
-    branch: v1.8.47
   provider: pages
   local_dir: artifacts/
   skip_cleanup: true
