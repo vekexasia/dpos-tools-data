@@ -297,7 +297,7 @@ pools:
     share: 20
     website: https://shiftpool.pw
     payout:
-      min: 0.1
+      min: 0.5
       addresses:
         - 14201120872392502702S
   -
