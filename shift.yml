@@ -324,6 +324,7 @@ pools:
     delegate: shozay_pool
     share: 30
     payout:
+      schedule: monthly
       addresses:
         - 15999348859093551866S
   -
@@ -434,6 +435,12 @@ pools:
     delegate: mrwhite
     share: 10
     website: http://shift.maxwell.co.at
+  -
+    delegate: wazzu
+    share: 50
+    payout:
+      schedule: weekly
+      min: 0.1
 
 
 promotedDelegates:
